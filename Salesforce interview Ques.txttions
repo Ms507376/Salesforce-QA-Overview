@@ -1,0 +1,347 @@
+1 ) What Is Salesforce?
+  Salesforce is customer success platform,which is designed to help us in sell, service, market, analyze.
+  Salesforce has everything which we need to run our business from anywhere.Using standard products and features,
+  we can manage relationships with customers,collaborate and engage with employees and partners,and can store our
+  data securely in the cloud.
+
+2)What Is CRM?
+   CRM stands for Customer Relationship Management.This technology allows us to manage relationships with our
+   customers and track data related to all of our interactions.
+
+3)How Salesforce Organizes our Data?
+  Salesforce organizes our data into objects and records.Objects are table and record is row.
+  Object:A table in the database e.g (Account ,Lead, opportunity,Reports,Contact )Or an object is a tab on Salesforce.com
+  Record:An item which we track in our database e.g then record is a row present in table.
+  Field	:A place where we store a value.Field is column of table.
+  Org   :Short for “organization,” the place where all our data,configuration, and customization lives. 
+         we log in to access it.This is called “instance of Salesforce”.
+  App	:A set of fields, objects, permissions, and functionality to support a business process.
+
+4) What is Salesforce Standard and Custom Objects?
+  Standard objects are objects that are included with Salesforce.Common business objects like Account,
+  Contact,Lead and Opportunity, Report,dashboards,campaigns, cases.
+  Custom objects are objects that we create to store information that's specific to our company or industry.
+  
+   How do we create a custom object in Salesforce?
+  From Setup,enter Objects in the Quick Find box,then select Objects.
+  Click New Custom Object.
+  Follow the wizard to complete the fields for our custom object.
+  Save the new object.
+
+5)Explain all Standard Objects present in Salesforce?
+  Accounts:Accounts are the companies we are doing business with.we can also do business with individual people
+  (like solo contractors) using something called Person Accounts.
+  Contacts:Contacts are the people who work at an Account.
+  Leads  :A lead is an unqualified contact or any potential client or customer we meet who hasn't been qualified 
+  as a prospect is a lead.
+  Opportunities:Opportunities are qualified leads that we have converted.Opportunities are deals in progress.
+  Opportunity records track details about deals,including which accounts they're for,who the players are,and
+  the amount of sales.
+  When we convert the Lead,we create an Account and Contact along with the Opportunity.
+
+
+6) Why We Built Lightning Experience ,What Makes Lightning Experience So Special in Salesforce.
+   Salesforce Lightning Experience,It’s fast and beautiful.It’s unique to each sales representatives.
+   It helps sales representatives sell faster,with personalized alerts and an interactive assistant to help 
+   each sales representative focus on what’s important.
+   
+   Few Benefit of Lightning Experience in Salesforce.
+   1)We can Navigate through pages and switch between apps with ease using the navigation bar.
+     We can Find records fast with powerful search capabilities,including the ability to view recent records
+     and top search results.
+   2)Home Page 
+     It Provides a number of tools to help our sales team to start their day fast.
+     From home sales represenative can monitor their performance to goal and get insights on key accounts. 
+     They can also access the Assistant,a list of things to do and places to be.
+     Get insights fast with News and social highlights.
+     Use the Assistant to identify exactly what they need to be doing today
+     Focus on selling activities on the Top Deals.
+   3) opportunity page: Here Sales representative they can click and can see the details like opportunity name,
+      opportunity owner,account name,Stage(need analysis,proposal,negotiation,closed),Probablity and amount.
+      Sales represenative can see the contact roles(buyer,VP customer support).
+   4) Accounts and Contacts:
+      Sales representative can collect account and contact data efficiently e.g(Contact details,Related account
+      and related opportunities).They can also get to know about Past activity and upcoming activities.
+   5) List Views: It allows us and Our sales represntative to see all records and applying filter to see 
+      customized lists of account,contact,opportunities.
+      With with Lightning Experience,list views are more than just columns of text.It Power up our sales 
+      representatives productivity with list view charts,allowing them to visualize their data graphically 
+      with a handy chart.
+
+
+7)   Navigation bar and setup.
+     navigation bar is a container for a set of items and functionality.It’s always there,but the items within
+     it change to represent the app(e.g Sales ,service ,Market) we re using.
+
+     App Launcher:
+     All Apps shows our custom, tandard,Lightning Experience,and connected apps in one place.
+     All items shows the home page, the feed, tasks,events, objects, custom tab types,and more.
+     These items are independent of the app that shows up on the navigation bar.
+     
+     SetUp:
+     Quick Find in Setup  is our power tool for getting where we need to go.:
+     Create menu: we can create 
+     Create a new user
+     Create multiple users at once
+     Create a new custom object
+     Create a new custom tab
+     Create an email template
+     Create a workflow process
+    
+    Object Manager:	
+    All standard and custom objects live in the Object Manager.
+   
+     App Menu:
+     Reorder Apps in the App Launcher.
+     Make apps visible or invisible in the App Launcher.
+
+
+8) Create and Convert Leads
+     1) Create Lead
+       Click the Lead tab.
+       Click New.
+       Add a lead record for Aparna Bosu.
+          First name: Aparna
+          Last name: Bosu
+          Company: Get Cloudy West
+          Title: Marketing Manager
+          Email: aparna@gogetcloudywest.com
+          Lead Status: Open - Not Contacted
+       Click on save.
+
+    2) Convert Lead 
+       Click On the Leads tab,open Aparna’s lead record.
+       Click Convert.
+       In Convert Lead page Select
+         In the Account section    -->Create New or Choose existing
+         In the Contact section    -->Create New or Choose existing
+         In the Opportunity section-->Create New or Choose existing
+       Check that the Record Owner and Converted Status are correct(Closed-Converted)
+       Click Convert.
+
+      Considerations for Converting Leads:
+      When we convert qualified leads,Salesforce moves any campaign members to the new contacts. 
+      The leads become read-only records,unless our administrator gives us permission to edit them.
+      If existing accounts and contacts share the names specified on the leads,we can choose to update
+      the existing accounts and contacts.
+       
+9)   Creating opportunities and adding Contact roles on opportunity.
+     Click On the Opportunities tab, click New.
+         If our org has more than one record type for opportunities,select the type that best represents this 
+         opportunity.
+     Give the opportunity a name: Get Cloudy - 50 Custom Sneakers.
+     Select the account that the opportunity is related to.
+     Select a close date for the opportunity.
+     Select the opportunity’s current stage e.g use Needs Analysis. 
+     Salesforce adds a probability based on the stage selected. 
+     Click Save.
+    
+    Contact Roles on Opportunities
+   Contact roles on opportunities tell us which contacts we are dealing with and how each contact is related 
+   to the opportunity.We can also use contact roles to link contacts from other accounts to the opportunity.
+   E.g To add Lars as a contact for the Get Cloudy Canada account. 
+       Then continue on to add his contact role for the opportunity we created.
+    In the Contact Roles related list of an opportunity,select Edit Contact Roles.
+    Enter a contact.
+    Choose a role.If we don’t select a role or the role is set to None.
+    If we like,select a primary contact for this opportunity.
+    Click Save.
+         
+10) Sell as a Team and Split the Credit.
+     Account team members can be expected to form a long-term relationship with a customer.
+     An opportunity team is a temporary group ,It’s composed of people who can help us to close a deal.
+     
+      Options present in (Opportunity Team)------>  Add Default Team
+                                          -------> Add Opportunity Team Members
+                                          ------->Team Member access
+                                          -------> Remove All Members
+    Split Credit for an Opportunity
+    Salesforce admin  enable opportunity splits to give opportunity team members incentive to complete a deal by letting the opportunity owner share credit.
+    opportunity owner Can add and adjust splits on an opportunity.
+    In the Opportunity Splits ---> add splits by clicking Edit Opportunity Splits.
+    There are two kinds of split:
+    1)Revenue splits: It's for crediting team members who are directly responsible for the revenue on an opportunity.Revenue splits always total 100% of the opportunity amount.
+    2)overlay split : It gives us a way to credit supporting team members.It can total any percentage of the opportunity amount,including a percentage over 100%.
+
+11) Account and Contact Relationship
+
+    Accounts:Accounts are the companies we are doing business with.
+    Contacts:Contacts are the people who work at an Account.
+    We create the contact for existing account.
+
+    Three Key about  Account and Contact Relationships
+    1)Relationships between companies (accounts) and the people who work at them (contacts).
+      By relating a contact to more than one account (called Contacts to Multiple Accounts),we can track relationships between people and the companies they work with.
+
+    2)Relationships between your customers (accounts) and other customers (other accounts).
+       The account hierarchy shows what companies Get Cloudy is affiliated with.Perhaps Get Cloudy has a parent company that we’ve already done business with.
+    
+    3)Relationships between customers (accounts) and coworkers who deal with them (other Salesforce users)
+       Account teams show which sales representative are working on the Get Cloudy deal.Account teams can help us to coordinate better with our sales reps.
+ 
+    Contacts to Multiple Accounts---> one contact might work with more than one company.
+    Account Hierarchies---> we Add parent account to all multiple accounts.
+
+
+12) Opportunity Management
+   
+    What does SEO stand for ----> Search engine optimization
+    What is a common way for marketing to find leads -->Events , Emailing , Content writing ,Websites.
+    Marketing and sales these are two groups which can be productive together.
+    Sales empower marketing to deliver it.
+    Few Terms related to marketing :
+
+    SEO        — It stands for search engine optimization.It’s a method of getting more website visitors by making sure our company comes up at the top of search results.
+    A/B testing— It is the process of testing two different versions of something to see which goes better. 
+                  For example, we can try two different email subject lines to see which one people open more.
+    TOFU and BOFU—It stands for top of funnel and bottom of funnel,and they are a way of classifying what marketing is doing. 
+                   TOFU refers to when we first start to engage with a prospect,and provide them with information that is usually a little lighter.
+                   BOFU is when you’re getting closer to converting the lead and passing it to sales,and it often involves more in-depth product information.
+     CTA        — It stands for call to action.CTA can be a “Register now” button at the end of an email that’s promoting a webinar.
+
+     
+     common tactics our marketing team is probably using to generate leads right now.
+     Website - our website is the customer’s first entry point to our company.With product information,demos,customer testimonials
+               and usually forms to fill out, this is one of the classic ways our team finds leads.
+     SEO     - marketing team is making sure that when our customers search, they find our web pages,not our competitors.
+     Email marketing-This is how marketing gets in touch with customers at scale,often sending helpful information or offers,and getting them warmed up for a conversation with sales.
+     Events  —It includes trade shows,industry conferences,and even our own events,like dinners for executives where we get closer to prospects and show them how awesome our company is.
+     Content marketing —A newer marketing format,this is where we provide helpful information to our customers(like eBooks,podcasts,or videos), often after they’ve entered their name and contact information on a form.
+
+     The Five Ws of Opportunity Management:
+   What —Opportunity management is the process we use to guide opportunities through the sales cycle until they close.
+   Who  —The process involves sales reps, sales managers,and basically anyone who wants opportunities to close.
+   When —It kicks in once a lead is qualified and a sales rep converts it to an opportunity.
+   Where—In Sales Cloud of course! we can set up Salesforce so that it guides our representative through the process and so that managing their opportunities well is a no-brainer.
+   Why  —There are a few main reasons why opportunity management matters. 
+        1) It helps our reps take the right steps to close a deal, every time. 
+        2) It gives sales leadership a better view into the pipeline.
+        3) It keeps deals moving forward toward the close.
+
+ Opportunity Management is done By
+  Helping the  representative  follow our process----> Once we  define a process, it makes really easy for our sales reps to follow with Sales Path. 
+                                                       It lets us add guidance at every stage,and it shows up in Sales Cloud when our rep gets to that stage.
+
+  Require representative to follow the process---->Mangement can be done by requiring that reps input certain information to progress a deal forward.
+                                                   we can do this by creating fields where reps are required to enter key information at certain stages.
+ 
+
+    
+
+
+13) What is SalesForce Testing?
+   Salesforce testing is a validation of the configuration and customisation performed in Salesforce.
+   Salesforce CRM is built on a platform development language called APEX.
+   Manual Testing in Salesforce is performed by the QA team which includes happy flow testing, functional testing, integration testing, 
+   regression testing and system testing.
+   Automation Testing in Salesforce can be done by any of these tools available in the market—Provar,AutoRABIT,Assure Click, Selenium and QTP. 
+
+14) Why Salesforce testing?
+   It Helps to maintain a positive relationship with the customers.
+   It Enhances communication between customers and organisations.Automation of daily tasks.
+   Process builders feature helps us to check the working condition and behaviour of the system.
+   Workflows allow us to check the functionality of time-based events.
+
+15 ) Salesforce Key Terminology
+    Salesforce Objects--->Salesforce Objects are database tables which permit us to store data specific to the organization.
+    Standard Objects--->Standard objects are that Salesforce Standard Objects
+    Custom Objects---->All the items created by external forces and not by Salesforce.com are known as custom objects
+    Relationships ----->Master-Detail,Lookup
+    Record        ---->This is made up of a bunch of fields that hold information to describe a specific item.E.g a contact record typically contains fields pertinent to a person, including name, title, phone number, and e-mail address. A record is displayed on a detail page
+    Account      ----->Companies or individuals that are involved in a business relationship.These can be partners,customers or competitors.
+    Contacts     ----->Individuals within the accounts.
+   Opportunity   ----->An event or activity for revenue generation.
+   Case          ----->A problem which a customer may have raised.
+   Solution     ------>The description of issues and their resolution.
+   Forecast     ------>Estimated quarterly revenue of the organization.
+   Folders      ------>Holds the documents and determines the access to all the documents within it.
+   Report       ------>Analysis of all data that is stored in custom or standard objects.
+   Dashboard    ------>Graphical data or groups of charts, generated from reports.
+   Activity     ------>It includes calendar events and tasks.
+   Products     ------>These refers to items that are sold to customers.
+   Campaign     ------> Marketing projects.
+   Lead         ------>The companies that are interested in your product.
+
+
+16) Levels of Testing in Salesforce
+   Unit Testing : Unit testing process is conducted by Apex developers. It involves writing clauses in their code which automatically tests its coverage.
+                  To deploy Apex code into a Production environment your code coverage ratio should be minimum 78%.
+
+ 
+   System Testing : Performed by an expert team of Salesforce consultants.
+                    Involves testing of the developed system’s technical processes from start to finish.
+                    Allows us to troubleshoot a problem with automated rules in the system e,g, workflow, validation, assignment.
+
+   Production Verification Testing :It is a repeat of system testing in the Production environment,performed by Salesforce Consultants and end users.
+                                     Production testing is done to test whether config and code have been correctly deployed from sandbox to production environment.
+
+   
+   Salesforce Testing Process:
+   A tester should have a clear knowledge of:
+   Sales and Service clouds
+   Standard and Custom Objects 
+   Salesforce Security concepts
+   CPQ Configure, Price, Quote
+   Workflows and Process Builder
+   Reports and Dashboards
+   Lightening module
+
+   Once the code is deployed in a Sandbox environment and approved to be ready for release, the code would be moved into production from the Sandbox environment.
+
+
+17) Salesforce Security Testing and Salesforce Exploratory Testing 
+     
+    Salesforce Security Testing
+
+    Turn on IP restriction for user logins to minimise the risk of unauthorised access in case of compromised accounts.
+    Set a maximum incorrect login attempt to between 3 and 5 times.
+    Expire user passwords within 90 days of creating it.
+    Passwords should not contain the word ‘password’.
+    Re-encrypt already encrypted data with the latest key if they’re using old keys, even if the old key is archived and not destroyed.
+
+    Salesforce Exploratory Testing  
+
+    Validating the consistency of data across multiple screens.
+    Negative test flows, such as deleting the default data generated.
+    User input validation on the form fields.
+    Cross browser compatibility testing to ensure if the rendering of data is correct across multiple browsers.
+    Maximum length validation for each of the editable input fields along with the invalid data validation.
+    Error message validation when invalid data is passed onto the applications.
+    Amount field validation using Boundary Value Analysis and Equivalence test techniques.
+    Reports and dashboard testing to test various test data parameters.
+
+
+18 ) Roles and Responsibilities of a Salesforce Tester?
+     We Testers make sure that the code coverage should not go below 75% as per the standard Salesforce rule.
+     we Conduct Smoke Testing to make sure all the major functionalities are functioning as per requirement.
+     we Create both positive and negative Test Scenarios.
+     we Conduct role-based testing to ensure the consistency of data with various user roles.
+     Able to perform equivalence Partitioning and Boundary Value Analysis.
+     Perform compatibility testing of the third-party applications integrated with Salesforce if any.
+     Testers are also needed to work on the application and gain the understanding of its functionality to create functional map.
+     The tester needs to execute role-based test cases to ensure the consistency of data.
+
+
+
+19 ) Salesforce Testing challenges
+     Writing test cases with different roles and mentioning the settings.
+     Some of the standard functionalities can’t be removed even they are not in use.
+     GUI tests don’t work when we switch to the test environment
+     Automated tests should able to work in all our test environments
+     Field Locators are how  automate tests,find the field or button on a page.There is an issue creating field locators for the 
+     Salesforce screens as some field IDs differ between Organisations.
+
+20 ) Best practice for Salesforce testing
+     a) Collect information for testing
+        A comprehensive list of a prioritised test case scenarios document must be prepared that covers all possible business case scenarios and technical exceptions.
+        The document should also include the expected result of each scenario and action.
+
+     b) Executing the tests
+        The testing document scenarios must be executed,and the results have to be documented for testing audit.
+        Any failure scenario or action in the test case must be escalated to the responsible team and retested after rectification.
+     
+     c) Use valid user profile
+        It is highly recommended that the testing be done with respective valid user profiles and check for consistency with the business processes.
+
+    d) Test both Negative and Positive paths
+       The system testing and UAT testing should be done for both positive and negative flows of every test case scenario.

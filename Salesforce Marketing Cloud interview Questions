@@ -24,8 +24,13 @@
                  ----->we can have a maximum of 2 master details on an object.
                  
                  
-                 
-                 
+ 2) Does an object can have both relationships (Lookup Relationship & Master Detail Relationship) at a time?
+    Yes, single object can have both relationships at a time.      
+ 
+ 3)Can we convert the lookup relationship to Master Detail relationship?
+    Yes, We can convert the lookup relationship to master detail relationship only if all the existing record has valid lookup field values.
+    
+ 4) 
                  
                  
                  

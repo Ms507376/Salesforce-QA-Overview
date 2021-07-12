@@ -1,1 +1,48 @@
 
+1)What is Relationship in Salesforce?  Types of Relationship and difference in salesforce ?
+   A relationship is a bi-directional association between two objects.Relationships allow us to create links between one object and another. 
+  Lookup Relationship
+  Master-Detail Relationship
+  Many-to-Many relationship 
+  External Look up 
+  
+  LookUp Relationship :It is a loosely coupled relationship among Salesforce objects, where  even if a parent record gets deleted, the child records 
+                       remain in the system. Here, both the parent and child have their own sharing settings and security controls.
+                       
+  Master Details Relationship :It is a strongly coupled relationship among Salesforce objects, which means if a master record gets deleted, then the child
+                              records associated with it are also deleted.Both doesn't have their own setting.security setting of a parent object applies to the child object.
+                              
+  Differnce in Look Up and master Details Relation ship 
+  
+  Look up       ----->Roll-up summary field cannot be created.
+                ----->Parent record is not required while creating a child record.
+                ----->Lookup fields are not required on the page layout of the detail record.
+                ----->we can have a maximum of 40 lookups on an object.
+  Master Details ----->Roll-up summary fields can only be created on Master records which will calculate the SUM, AVG, MIN of the Child records.
+                 ----->Parent record is always required in order to create a child record.
+                 ----->Master-detail field is always required on the page layout of the detail record.
+                 ----->we can have a maximum of 2 master details on an object.
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+  
+                              
+                              
+                              
+                              
+                              
+   
+2)
+  

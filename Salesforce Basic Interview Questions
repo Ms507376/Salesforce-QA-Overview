@@ -30,7 +30,62 @@
  3)Can we convert the lookup relationship to Master Detail relationship?
     Yes, We can convert the lookup relationship to master detail relationship only if all the existing record has valid lookup field values.
     
- 4) 
+ 4) What is profile ?
+    A profile in Salesforce is a group/collection of settings and permissions that define what a user can do in Salesforce.
+    A profile controls “Object permissions, Field permissions, User permissions,Tab settings, App settings, Apex class access,
+    Visualforce page access, Page layouts, Record Types, Login hours & Login IP ranges.
+    Example System Administrator, Developer, Sales Representative.A profile can be assigned to many users,but a user can be assigned a single profile at a time.
+    
+    Types of Profile:
+    Standard Profile ---->salesforce provides below standard profiles. We cannot delete standard ones.
+                          Read Only, Standard User, Marketing User, Contract Manager, Solution Manager & System Administrator. 
+    
+    Custom Profile ------> Custom profile defined by us.They can be deleted if there are no users assigned to that particular one.
+             
+    
+5)  Differnce between Role and Profile ?
+      Role ----->The role helps in defining data visibility
+           ----->A role defines what user data a user can see based on hierarchy
+           ----->Defining role to a user is mandatory always
+           
+     Profile ----->A profile sets the limit of permission what a user can do in the organization
+             -----> Profile defines permissions
+             ----->Defining profile is not always mandatory
+             
+6)  What is permission set in Salesforce ?
+    A permission set is a collection of settings and permissions that give users access to various tools and functions.
+    Users can have only one profile but,depending on the Salesforce edition, they can have multiple permission sets.
+   
+   Examples: 
+   1.We have many users in your organization with some fundamental job functions.We can assign all of then with one profile that grants
+   them all access to do their job. But some set of people are working on special apps or some special functionality, for this type of 
+   special users we can create permission sets and can be assigned to them.
+
+  2.Some users need some temporary access to a specific set of fields and objects we can create a permission set with those object & field 
+    access and we can assign those specific users.
+
+
+7) 
+
+
+
+
+
+
+
+
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
                  
                  
                  

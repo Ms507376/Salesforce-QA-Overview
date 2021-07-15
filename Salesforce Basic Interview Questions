@@ -110,9 +110,12 @@
     Data Import Wizard : It is a tool,accessible through the Setup menu,which allow us to  import data in common standard objects, 
     such as contacts, leads, accounts, as well as data in custom objects.It can import up to 50,000 records at a time
      
-     
-     
-11)
+11) What is Work Flow in Salesforce? Type of workflow in Salesforce ?
+    Workflow in Salesforce is basically a container or business logic engine which automates certain actions based on particular criteria.
+    Immediate action Workflow      :Immediate action Workflow triggers immediate action when criteria is met.
+    Time Dependent action Workflow :Time Dependent action workflow triggers the action like sending automated E-mails,field update, 
+                                     Task assignment and sending outbound Messages depending on the time set.
+    
 
 
 

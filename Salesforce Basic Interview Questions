@@ -118,7 +118,46 @@
     
 
 
+12) What is a page Layout and record type  in Salesforce?
+    Page Layout : It's a structure which Explains How detail and edit pages are organized.
+                :Give idea about Which fields, related lists, and Custom Links a user can see.
+                :Give idea of Field properties – visible, read-only and required.
+    Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
+                :It helps us to  implement our custom business processes.
+                
+13) What is Picklist and What are the datatypes present in Salesforce ?
+     Picklist :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
+     Types of Picklist in salesforce :
+     Restricted Picklist :Restricted picklists keep users from adding new values(either through the API or other apps). 
+                         : This restriction is useful for keeping our data consistent.
+                  
+     Dependent Picklist   :A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
+                          the value of another field, called the controlling field 
+                          
+     Unrestricted Picklist:UnRestricted picklists allow the  users from adding new values.
+     
+     Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
+                               String, Time,URL
+                               
+                               
+     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
      
      

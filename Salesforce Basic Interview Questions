@@ -139,6 +139,27 @@
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
                                String, Time,URL
                                
+ 14) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
+     Approval Process: An approval process is a type of business process that includes steps to formally approve work from different levels of the organization.
+     
+      Approval Process
+      Approval Processes are triggered explicitly when we click on Submit for Approval.
+      Approval Processes consists of multiple steps.
+      Some attributes can not be modified in approval Processes.
+      Approval history can be tracked here.
+      If the record is set to “locked down” that record can not be changed.
+      
+15) What is public group in salesforce ? what is use of public group ?
+    A public group is a collection of individual users, other groups that all have a function in common.
+    Public Groups—Only administrators can create public groups.They can be used by everyone in the organization.
+    The purpose of having public groups is to assign things or resources to it which are meant to be seen or used by everyone in the organization.
+    
+ 16)
+    
+     
+     
+    
+                               
                                
      
 

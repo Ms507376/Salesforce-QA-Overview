@@ -1,0 +1,56 @@
+1) What is Subscribers in  Salesforce marketing Cloud?
+   Subsribers are the customer who opted-in to receive email communication from marketing cloud.
+   Subscriber belongs to All Subscribers and List.
+   Inside subsribers List we can create a new subscriber with Valid data(Email address,Subscriberkey(Primary key),Subsriber status,
+   profile attribute(first name ,Last name), profile preferences(e.g HTML email)
+
+2) what is List in marketing cloud( Email studio)?
+   List is default method of storing subsriber data in email application.
+   Requires minimum configuartion and set up.
+   Email address and Subsriber key are the key attributes for List.
+   Creating a List-------> Email studio - Subscribers- My List - Create
+   Types of List(Public List and private List)
+  
+3) What is Data Extension and type of data extension?
+   Data Extension is custom table which stores the data in marketing cloud.
+   It provides flexible data and runs faster and store huge data.
+   we can interact with Salesforce data extensions.One is in the Salesforce Email Studio and the other one is in Contact Builder.
+   set their data retention policy.like 5 days or 9 days.
+   
+   Creation of data extension method :
+       Create from new 
+       Create from existing
+       Create from template
+   
+    Different Types of Data Extensions:
+     a)Standard Data Extensions
+     b)Filtered Data Extensions
+     c)Random   Data Extensions
+
+   a) A Standard data extension allows us to create custom fields and data types in our table.
+   b) A Filtered data extension allows us to filter fields, measures,and filters for a sendable data extension from a source data extension.
+      we have to have a Standard data extension to create a Filtered data extension.
+   c) A Random data extension allows us to randomly select subscribers from a source data extension.Just like with a Filtered data extension,
+      we need a Standard data extension to derive a random data extension.
+   
+   Sendable data extension   -->Data extension contain subsribers data if it is marked as used for sending then it is called Sendable data extension.
+   NonSendable data extension-->Data Extension also contain data like purchases ,url to images which we want to display these are Non-Sendable DE.
+
+
+6)  Difference between List and Data Extension?
+    List is slow and Data Extension is fast
+    Data extension have few more datatype apart from List data type(Date,Test,Boolean,number) like Email address,Decimal,Phone number.
+
+   
+7) What is A/B testing in Email studio ?
+    It is a tool which is used to optimize email campaigns by automaticaly spliting the audience,calculating winner and sending the winner reminder.
+    we perform A/B Testing on SubjectLines,email,content area,from name ,send date and Pre-header.
+
+
+8) what is  Tracking in Email studio?
+    It is used to track email sent( Total No of email , job id , emailname ,dateofsent all these details).
+
+9) what is content builder in email studio?
+   Content Builder is our cross-channel content management tool that allows us to consolidate images,documents,and content in a single location for use in the Marketing Cloud.
+   It is used to create an email based on templates, HTML,Text,Existing Email.Content can include images, content blocks, templates, videos, documents.
+   Content Builder is used to organize our assets, make creating emails efficient.

@@ -42,9 +42,12 @@
     Data extension have few more datatype apart from List data type(Date,Test,Boolean,number) like Email address,Decimal,Phone number.
 
    
-7) What is A/B testing in Email studio ?
+7) What is A/B testing in Email studio ?What components of an email can be tested in A/B Testing?How is the winning email selected in A/B Testing?
     It is a tool which is used to optimize email campaigns by automaticaly spliting the audience,calculating winner and sending the winner reminder.
     we perform A/B Testing on SubjectLines,email,content area,from name ,send date and Pre-header.
+    In the A/B Testing configuration, we set the criteria to decide the winning email. we can choose the winner by 2 options:
+    Highest unique open rate               : the version with the highest unique open rate.
+    Highest unique click-through rate (CTR): the version with the highest unique click-through rate.
 
 
 8) what is  Tracking in Email studio?
@@ -68,12 +71,74 @@
    Analyze and evaluate the performance of email at each step.
    
 11) what are the different studio present in Marketing cloud and What's the use of each studio?
+    Automation Studio:Automation Studio allows activities such as send email,SQL query, data extract, and wait activity.
+    Email Studio     : Email Studio is a very important part of the Salesforce Marketing Cloud, it is used to build and send personalized emails from basic newsletters.
+                     : It delivers promotional, transactional, and triggered messages and also track and optimize the drive performance.
+    Query Studio     : Query studio allows us to quickly run queries in the Marketing Cloud with a similar experience to SQL Server Studio or MySQL
 
 12) What is Marketing Cloud Connect ?
     Marketing Cloud Connect is a tool, through which data from either  SalesForce Sales Cloud  or SalesForce Service Cloud  
     can be synced with the SalesForce Marketing Cloud.
     
-13)
+13) Which content can be included in Content Builder? 
+    To generate email templates in the Content Builder, we use disposal text, image, free form, button, HTML data, and dynamic content.
+ 
+14)How does Dynamic Email work?
+   For Dynamic email,we can define a dynamic content block in an email to display(render) information based on the subscriber’s 
+   attributes, data extension values, or audiences.Example instead of building 2 emails for a Male and Female customer, we can build a dynamic
+   content block that can render the content based on Gender.
+   
+15) What are the different Email sending options in SFMC?
+    Different Email sending option present in SFMC .
+    Single Email Send  :It is a straightforward way of sending an email.We open the email,click on send, choose the audience and 
+                        other email send configuration, and send straight away.
+    User-Initiated Send:In a User-initiated send,we create a definition of an email send, and send it right away or schedule to send in the future.
+                        In a user-initiated send, we select the email, audience, and time of the send.
+    Triggered Email Send: A triggered email Send is an email communication sent to an individual subscriber in response to a subscriber action. 
+                         Triggered Sends trigger a Salesforce Marketing Cloud email from Salesforce using the Salesforce Marketing Cloud integration action.
+ 
+ 16)Is it possible for customer to come back in a journey?
+     Depending on how the journey has been customized in the Journey settings, it can be set as not allowing the customers to re-enter the journeys,
+     allowing them to re-enter anytime, or to re-enter after exiting. 
+      Mainly 3 options possible :
+      No re-entry
+      Re-entry anytime
+      Re-entry after exiting
+      
+ 17)     
+ 
+ 18) Which communication channels are available in salesforce marketing cloud ?
+     There are four channels of communication with customers available in SalesForce Marketing Cloud 
+     :email, MobileConnect for SMS and MMS messages,
+     :GroupConnect for messaging apps like Messenger, and MobilePush to send  mobile device notifications.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+                         
+    
+    
+                       
+     
+    
+
     
 
    

@@ -137,7 +137,58 @@
     Data Extract Activity: By this activity we create zipped files for our use outside the SFMC and also to convert an XML file into other formats to import into SFMC.
     Wait Activity: This activity is used to wait for a specific duration or until a specific time before performing the next step.
     
-23)
+23)What are the different data models available in SFMC and what is the difference between them?
+   Different Data model avilable in SFMC .
+   List 
+   Data extension
+   
+   List         : A list is a collection of subscribers that receive our communications.
+                : Lists contain less than 500,000 subscribers,less import speed and a limited number of subscriber attributes.
+  DataExtension :Data extension is a table within the database that contains our data.
+                :It can hold greater than 500,000 subscribers,great import speed,and can be used for SOAP and REST APIs.
+                
+24)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
+    Publication lists are used to manage opt-ins for our email account in Email Studio .
+    It also controls how subscribers receive the sends the email. 
+     A Publication list is used while  sending email messages and SMS messages to a sendable data extension.
+   
+     Example: we Create a separate publication list for each category like newsletters, advertisements, and alerts.
+            : Each list has its own subscription status of the customers for that category.
+            
+      All Subscriber List :The All Subscribers list is the master list of records in SFMC.
+      Publication List    : It  is like a subset of subscribers from the All Subscribers List.
+       Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.
+       
+       
+25) 
+     
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
      
      
      

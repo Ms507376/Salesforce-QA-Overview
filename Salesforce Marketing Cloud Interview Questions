@@ -160,7 +160,42 @@
        Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.
        
        
-25) 
+25) What Data Integration options are available in Salesforce Marketing Cloud (SFMC)?
+    Data integration options avilable in SFMC APIs , Cloudpages,FTP and Manual import.
+    FTP : Every SFMC org comes with an SFTP account.
+        : Marketing Cloud creates Import,Export and Reports folders in our SFTP folder.we use these SFTP folders to import data into lists and data extensions.
+        
+   APIs: REST and SOAP APIs is used to import or export data from SFMC.
+       : REST API exposes more extensive access to Marketing Cloud capabilities.
+       : SOAP API provides comprehensive access to most email functionality.
+  
+   
+   Cloud Page :A Cloud Page landing page is a web page that we can view from a browser or link to other websites and emails.
+              :we use AMPscript to write data into lists or data extensions from the cloud page.
+              
+  Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
+  
+               
+ 26)               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+
+
      
       
    

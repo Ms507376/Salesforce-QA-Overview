@@ -176,7 +176,18 @@
   Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
   
                
- 26)               
+ 26)How is data shared between 2 Business Units (BU) within SFMC?
+    By placing the data extension (DE) in the Shared folder in the parent BU. 
+    After switching to the child BU to view the shared data extension in the ‘Shared’ folder.we can use the data in this DE in the child BU.
+    
+ 27) What other communication channels can be used/supported in SFMC to target our customers?
+     Apart from Email,SFMC has Mobile Studio which has 3 core features to target customers.
+     MobileConnect: It is used to Create, send, receive, and track SMS and MMS text messages.
+     GroupConnect: It is used to send messages via messaging apps LINE and Facebook Messenger.
+     MobilePush  : It is used to create and send notifications to a mobile app.
+     
+28) 
+    
                
                
                

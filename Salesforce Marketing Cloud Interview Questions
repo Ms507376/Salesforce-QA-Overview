@@ -1,3 +1,13 @@
+
+ ****************What is Salesforce Marketing Cloud---------------------------------------------------------
+ Marketing Cloud is comprised of a suite of studios and builders(Email Studio, Journey Builder, etc.).
+This  platform lets us manage messaging through multiple channels: email, sms, ads, and push.
+Automation Studio and Journey Builder allow customers to automate their marketing programs to increase reach and efficiency.
+Tracking and reports provide analytics that allow customers to measure and improve their programs.
+The API and SFTP enable integration with any external system. Customers use these to integrate with web analytics,
+data warehouses,CRM systems,POS systems,custom apps, and more.
+
+
 1) What is Subscribers in  Salesforce marketing Cloud?
    Subsribers are the customer who opted-in to receive email communication from marketing cloud.
    Subscriber belongs to All Subscribers and List.

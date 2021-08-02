@@ -154,7 +154,42 @@
     Public Groups—Only administrators can create public groups.They can be used by everyone in the organization.
     The purpose of having public groups is to assign things or resources to it which are meant to be seen or used by everyone in the organization.
     
- 16)
+ 16)What is a Trigger? What are the types of Triggers?
+     Before and after changes are made to a record, the custom actions performed in Salesforce are called Triggers.
+     Triggers can be used to invoke Apex code.
+     These are Trigger action:
+     insert
+     delete
+     update
+     merge
+     upsert
+     undelete
+     
+17)   What is the difference between Force.com and Salesforce.com?
+      Force.com is a Platform-as-a-Service (PaaS) but Salesforce.com is a Software-as-a-Service (SaaS).
+      Salesforce.com comes as an out-of-the-box solution and comes along with three core products – Sales Cloud, Marketing Cloud, and Service Cloud.
+      Saas examples : Google Apps, Salesforce, Dropbox
+      Paas examples : Windows Azure, Heroku
+      
+18) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?
+     SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
+     SOSL(Salesforce Object Search Language) retrieves the records from the database by using the “FIND” keyword.
+     SOQL can be used in triggers and classes but SOSL only used in classes.
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
     
      
      

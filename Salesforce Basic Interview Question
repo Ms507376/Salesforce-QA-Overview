@@ -203,7 +203,104 @@
      Partial Copy
      Full
      
-21) 
+21) What the difference between isNull and isBlank?
+        isNull: It supports for a number field
+        isBlank: It supports for a Text field
+        
+22)What actions are available in the workflow? 
+   Actions available in the workflow are
+    Email Alert
+    Task
+    Field Update
+    Outbound Message
+    
+23) Is it possible to schedule a dynamic dashboard in Salesforce?
+    No, it is not possible to schedule a dynamic dashboard in Salesforce.
+
+24) What is the junction object and what is its use?
+    Junction objects are used to build many-to-many relationships between objects.
+    Example : Recruiting application
+            : where a position for a job can be linked to many candidates and in the same manner, a candidate can be related to the different locations.
+            
+25)What is the meaning of Governor Limits in Salesforce?
+   In Salesforce, Governor Limits helps us  to controls how much data or how many records we can store in the shared databases.
+   Salesforce uses a single database to store data from different clients.
+   
+26) Can you write getter and setter methods in Salesforce?
+    Yes,in Salesforce we can code the getter method to get the value of a variable to visual force pages 
+    while the setter method to set the value of that specific variable.
+    
+27) What is a static resource in Salesforce?
+    With Salesforce’s static resource,we can upload images, zip files, CSS files. It can be referred in a Visualforce page.
+    
+28) What is Trigger.new?
+    Triger.new is a command that returns the list of records that have been added recently to the subjects. 
+    It only returns those records which are yet to be saved to the database.
+    
+29) What Is Roll-up Summary?
+    Roll-up summary displays the count of child records and allows us to calculate the sum, minimum and maximum of fields of the child records.
+    
+30) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
+    we can access custom text values from Apex classes and also from any visual force page which known as Custom labels.
+    There is a minimum of 5000 custom labels for each organization that can be created.The label size is almost 1000 characters.
+
+31) What is deterministic formula fields in Salesforce and App Launcher Namespace?
+    deterministic formula field:It is  a value which is static or known.
+    App Launcher : It is a method which will look after the appearance of the app the visibility and order.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

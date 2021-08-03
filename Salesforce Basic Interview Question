@@ -171,16 +171,26 @@
       Saas examples : Google Apps, Salesforce, Dropbox
       Paas examples : Windows Azure, Heroku
       
-18) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?
-     SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
-     SOSL(Salesforce Object Search Language) retrieves the records from the database by using the “FIND” keyword.
-     SOQL can be used in triggers and classes but SOSL only used in classes.
+18) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
+     a)SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
+       SOSL(Salesforce Object Search Language) retrieves the records from the database by using the “FIND” keyword.
+     b)SOQL can be used in triggers and classes but SOSL only used in classes.
       
-     example of a SOSL query that searches for accounts and contacts that have any fields with the word 'SFDC'.
-     List<List<SObject>> searchList = [FIND 'SFDC' IN ALL FIELDS 
+       example of a SOSL query that searches for accounts and contacts that have any fields with the word 'SFDC'.
+       List<List<SObject>> searchList = [FIND 'SFDC' IN ALL FIELDS 
                                       RETURNING Account(Name), Contact(FirstName,LastName)];
                                       
-     example of a SOQL query:
+       example of a SOQL query:
+       // querying list of records and stores in list variable “acc”
+        List<Account>  acc = [Select Name from Account where industry = ‘education’];
+        
+     c) SOQL Return Records and SOSL returns field.
+     d) SOSL is generally faster than SOQL if the search expression uses a CONTAINS term.
+     
+19) 
+     
+      
+      
      
      
      

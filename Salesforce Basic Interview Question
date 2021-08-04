@@ -1,5 +1,5 @@
 
-1)What is Relationship in Salesforce?  Types of Relationship and difference in salesforce ?
+1)What is Relationship in Salesforce?  what are the Types of Relationship and  what is difference between Lookup and master Details relationship?
    A relationship is a bi-directional association between two objects.Relationships allow us to create links between one object and another. 
   Lookup Relationship
   Master-Detail Relationship

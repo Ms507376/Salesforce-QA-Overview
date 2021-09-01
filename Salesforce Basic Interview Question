@@ -150,9 +150,9 @@
       If the record is set to “locked down” that record can not be changed.
       
 15) What is public group in salesforce ? what is use of public group ?
-    A public group is a collection of individual users, other groups that all have a function in common.
-    Public Groups—Only administrators can create public groups.They can be used by everyone in the organization.
-    The purpose of having public groups is to assign things or resources to it which are meant to be seen or used by everyone in the organization.
+    A public group is a collection of individual users, or groups that all have a commmon function.
+    Public Groups—Only administrators can create public groups that is used by everyone in the organization.
+    The purpose of having public groups is to assign things or resources to it which can be  used by everyone in the organization.
     
  16)What is a Trigger? What are the types of Triggers?
      Before and after changes are made to a record, the custom actions performed in Salesforce are called Triggers.
@@ -234,7 +234,7 @@
     With Salesforce’s static resource,we can upload images, zip files, CSS files. It can be referred in a Visualforce page.
     
 28) What is Trigger.new?
-    Triger.new is a command that returns the list of records that have been added recently to the subjects. 
+    Triger.new is a command that returns the list of records that have been added recently to the objects. 
     It only returns those records which are yet to be saved to the database.
     
 29) What Is Roll-up Summary?
@@ -242,7 +242,7 @@
     
 30) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
     we can access custom text values from Apex classes and also from any visual force page which known as Custom labels.
-    There is a minimum of 5000 custom labels for each organization that can be created.The label size is almost 1000 characters.
+    Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.
 
 31) What is deterministic formula fields in Salesforce and App Launcher Namespace?
     deterministic formula field:It is  a value which is static or known.

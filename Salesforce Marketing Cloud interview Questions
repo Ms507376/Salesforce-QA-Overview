@@ -1,5 +1,5 @@
 
- ****************What is Salesforce Marketing Cloud---------------------------------------------------------
+ ******************************************What is Salesforce Marketing Cloud************************************************************
  Marketing Cloud is comprised of a suite of studios and builders(Email Studio, Journey Builder, etc.).
 This  platform lets us manage messaging through multiple channels: email, sms, ads, and push.
 Automation Studio and Journey Builder allow customers to automate their marketing programs to increase reach and efficiency.
@@ -196,7 +196,15 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
      GroupConnect: It is used to send messages via messaging apps LINE and Facebook Messenger.
      MobilePush  : It is used to create and send notifications to a mobile app.
      
-28) 
+28) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
+    Hard Bounce - A hard bounce is an e-mail message that is  returned to the sender because the recipient's address is invalid or the domain doesn't exist.
+    soft Bounce - A soft bounce occurs when the email server rejects the email message due to a seemingly temporary condition,
+                   such as: Address is temporarily unavailable due to an inactive or temporarily disabled mailbox
+                          : Recipient's mailbox is full
+                          :Temporary domain failure
+    Note : The Marketing Cloud makes 288 attempts to deliver the email message. If all attempts are unsuccessful, it is considered a soft bounce.
+   
+   
     
                
                

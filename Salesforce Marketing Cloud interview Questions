@@ -4,20 +4,20 @@
 This  platform lets us manage messaging through multiple channels: email, sms, ads, and push.
 Automation Studio and Journey Builder allow customers to automate their marketing programs to increase reach and efficiency.
 Tracking and reports provide analytics that allow customers to measure and improve their programs.
-The API and SFTP enable integration with any external system. Customers use these to integrate with web analytics,
+The API and SFTP(Secure File Transfer Protocol) enable integration with any external system. Customers use these to integrate with web analytics,
 data warehouses,CRM systems,POS systems,custom apps, and more.
 
 
 1) What is Subscribers in  Salesforce marketing Cloud?
    Subsribers are the customer who opted-in to receive email communication from marketing cloud.
    Subscriber belongs to All Subscribers and List.
-   Inside subsribers List we can create a new subscriber with Valid data(Email address,Subscriberkey(Primary key),Subsriber status,
+   Inside subscribers List we can create a new subscriber with Valid data(Email address,Subscriberkey(Primary key),Subscriber status,
    profile attribute(first name ,Last name), profile preferences(e.g HTML email)
 
 2) what is List in marketing cloud( Email studio)?
-   List is default method of storing subsriber data in email application.
+   List is default method of storing subscriber data in email application.
    Requires minimum configuartion and set up.
-   Email address and Subsriber key are the key attributes for List.
+   Email address and Subscriber key are the key attributes for List.
    Creating a List-------> Email studio - Subscribers- My List - Create
    Types of List(Public List and private List)
   
@@ -25,7 +25,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
    Data Extension is custom table which stores the data in marketing cloud.
    It provides flexible data and runs faster and store huge data.
    we can interact with Salesforce data extensions.One is in the Salesforce Email Studio and the other one is in Contact Builder.
-   set their data retention policy.like 5 days or 9 days.
+   set their data retention policy , like 5 days or 9 days.
    
    Creation of data extension method :
        Create from new 

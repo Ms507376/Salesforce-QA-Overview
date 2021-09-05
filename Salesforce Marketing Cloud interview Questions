@@ -66,8 +66,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
 9) what is content builder in email studio?
    Content Builder is our cross-channel content management tool that allows us to consolidate images,documents,and content in a single location for use in the Marketing Cloud.
    It is used to create an email based on templates, HTML,Text,Existing Email.Content can include images, content blocks, templates, videos, documents.
-   Content Builder is used to organize our assets, make creating emails efficient.
-    
+   
     Creation of Content folder( Local folder and Shared )
     Shared content :That is used by all the Business unit (TestBU,Prod,AdidasAG,LAM)
    

@@ -107,8 +107,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
                          Triggered Sends trigger a Salesforce Marketing Cloud email from Salesforce using the Salesforce Marketing Cloud integration action.
  
  16)Is it possible for customer to come back in a journey?
-     Depending on how the journey has been customized in the Journey settings, it can be set as not allowing the customers to re-enter the journeys,
-     allowing them to re-enter anytime, or to re-enter after exiting. 
+     yeah , it's possible ,Depending on how the journey has been customized in the Journey settings.
       Mainly 3 options possible :
       No re-entry
       Re-entry anytime
@@ -129,7 +128,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
      Decision Split in Journey Builder evaluates the data of that contact and makes them flow in the path they are eligible for.
       
  20) Which communication channels are available in salesforce marketing cloud ?
-     There are four channels of communication with customers available in SalesForce Marketing Cloud 
+     There are four channels of communication available in SalesForce Marketing Cloud 
      :email, MobileConnect for SMS and MMS messages,
      :GroupConnect for messaging apps like Messenger, and MobilePush to send  mobile device notifications.
    
@@ -137,7 +136,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
      A Wait Activity is a period of time that contacts are held between other activities. There are types of wait activity:
      Wait by Duration: waits for specified hours, days, etc
      Wait Until Date: waits until the specified end day and time
-     Wait by Attribute: waits until the day and time stored in a date field is reached
+     Wait by Attribute: waits until the day and time data stored in a filed is reached.
      
      
  22)What activities can be performed in the Automation studio?

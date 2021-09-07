@@ -103,8 +103,8 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
                         other email send configuration, and send straight away.
     User-Initiated Send:In a User-initiated send,we create a definition of an email send, and send it right away or schedule to send in the future.
                         In a user-initiated send, we select the email, audience, and time of the send.
-    Triggered Email Send: A triggered email Send is an email communication sent to an individual subscriber in response to a subscriber action. 
-                         Triggered Sends trigger a Salesforce Marketing Cloud email from Salesforce using the Salesforce Marketing Cloud integration action.
+    Triggered Email Send: A triggered email send  is a email message that Marketing Cloud sends to an individual subscriber in response to a subscriber action. 
+                        : For example,sending a confirmation message after a customer makes a purchase is a triggered email.
  
  16)Is it possible for customer to come back in a journey?
      yeah , it's possible ,Depending on how the journey has been customized in the Journey settings.
@@ -157,11 +157,11 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
                 
 24)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
     Publication lists are used to manage opt-ins for our email account in Email Studio .
-    It also controls how subscribers receive the sends the email. 
+    It also controls how subscribers receive the sends email. 
      A Publication list is used while  sending email messages and SMS messages to a sendable data extension.
    
      Example: we Create a separate publication list for each category like newsletters, advertisements, and alerts.
-            : Each list has its own subscription status of the customers for that category.
+            
             
       All Subscriber List :The All Subscribers list is the master list of records in SFMC.
       Publication List    : It  is like a subset of subscribers from the All Subscribers List.
@@ -173,13 +173,10 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
     FTP : Every SFMC org comes with an SFTP account.
         : Marketing Cloud creates Import,Export and Reports folders in our SFTP folder.we use these SFTP folders to import data into lists and data extensions.
         
-   APIs: REST and SOAP APIs is used to import or export data from SFMC.
-       : REST API exposes more extensive access to Marketing Cloud capabilities.
-       : SOAP API provides comprehensive access to most email functionality.
-  
-   
-   Cloud Page :A Cloud Page landing page is a web page that we can view from a browser or link to other websites and emails.
-              :we use AMPscript to write data into lists or data extensions from the cloud page.
+   APIs: REST and SOAP APIs is used to import data into sfmc  or export data from SFMC.
+       
+  Cloud Page :A Cloud Page landing page is a web page that we can view from a browser .
+             :we use AMPscript to write data into lists or data extensions from the cloud page.
               
   Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
   
@@ -196,10 +193,10 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
      
 28) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
     Hard Bounce - A hard bounce is an e-mail message that is  returned to the sender because the recipient's address is invalid or the domain doesn't exist.
-    soft Bounce - A soft bounce occurs when the email server rejects the email message due to a seemingly temporary condition,
-                   such as: Address is temporarily unavailable due to an inactive or temporarily disabled mailbox
-                          : Recipient's mailbox is full
-                          :Temporary domain failure
+    soft Bounce - A soft bounce occurs when the email server rejects the email message 
+                  because of: Address is temporarily unavailable due to an inactive or temporarily disabled mailbox
+                            : Recipient's mailbox is full
+                            : Temporary domain failure
     Note : The Marketing Cloud makes 288 attempts to deliver the email message. If all attempts are unsuccessful, it is considered a soft bounce.
    
    

@@ -244,9 +244,7 @@
     we can access custom text values from Apex classes and also from any visual force page which known as Custom labels.
     Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.
 
-31) What is deterministic formula fields in Salesforce and App Launcher Namespace?
-    deterministic formula field:It is  a value which is static or known.
-    App Launcher : It is a method which will look after the appearance of the app the visibility and order.
+31) what is validation rule in salesforce ?
     
     
     

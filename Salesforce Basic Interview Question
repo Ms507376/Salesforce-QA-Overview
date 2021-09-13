@@ -115,63 +115,34 @@
     Immediate action Workflow      :Immediate action Workflow triggers immediate action when criteria is met.
     Time Dependent action Workflow :Time Dependent action workflow triggers the action like sending automated E-mails,field update, 
                                      Task assignment and sending outbound Messages depending on the time set.
-    
-
-
-12) What is a page Layout and record type  in Salesforce?
-    Page Layout : It's a structure which Explains How detail and edit pages are organized.
-                :Give idea about Which fields, related lists, and Custom Links a user can see.
-                :Give idea of Field properties – visible, read-only and required.
-    Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
-                :It helps us to  implement our custom business processes.
-                
-13) What is Picklist and What are the datatypes present in Salesforce ?
-     Picklist :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
-     Types of Picklist in salesforce :
-     Restricted Picklist :Restricted picklists keep users from adding new values(either through the API or other apps). 
-                         : This restriction is useful for keeping our data consistent.
-                  
-     Dependent Picklist   :A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
-                          the value of another field, called the controlling field 
-                          
-     Unrestricted Picklist:UnRestricted picklists allow the  users from adding new values.
-     
-     Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
-                               String, Time,URL
-                               
- 14) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
+                                     
+12) what is validation rule in salesforce ?
+    A Validation Rule is a rule on a field which verifies that data entered by a User meets a certain criteria, before the User can save the record.
+    Example :Value of filed  >100 And <1000
+            : any date related field [EndDate]>=[StartDate]
+            
+13) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
      Approval Process: An approval process is a type of business process that includes steps to formally approve work from different levels of the organization.
      
       Approval Process
       Approval Processes are triggered explicitly when we click on Submit for Approval.
-      Approval Processes consists of multiple steps.
-      Some attributes can not be modified in approval Processes.
       Approval history can be tracked here.
       If the record is set to “locked down” that record can not be changed.
       
-15) What is public group in salesforce ? what is use of public group ?
+      
+14) What is public group in salesforce ? what is use of public group ?
     A public group is a collection of individual users, or groups that all have a commmon function.
     Public Groups—Only administrators can create public groups that is used by everyone in the organization.
     The purpose of having public groups is to assign things or resources to it which can be  used by everyone in the organization.
     
- 16)What is a Trigger? What are the types of Triggers?
-     Before and after changes are made to a record, the custom actions performed in Salesforce are called Triggers.
-     Triggers can be used to invoke Apex code.
-     These are Trigger action:
-     insert
-     delete
-     update
-     merge
-     upsert
-     undelete
-     
-17)   What is the difference between Force.com and Salesforce.com?
-      Force.com is a Platform-as-a-Service (PaaS) but Salesforce.com is a Software-as-a-Service (SaaS).
-      Salesforce.com comes as an out-of-the-box solution and comes along with three core products – Sales Cloud, Marketing Cloud, and Service Cloud.
-      Saas examples : Google Apps, Salesforce, Dropbox
-      Paas examples : Windows Azure, Heroku
-      
-18) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
+15)What actions are available in the workflow? 
+   Actions available in the workflow are
+    Email Alert
+    Task
+    Field Update
+    Outbound Message
+    
+16) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
      a)SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
        SOSL(Salesforce Object Search Language) retrieves the records from the database by using the “FIND” keyword.
      b)SOQL can be used in triggers and classes but SOSL only used in classes.
@@ -186,8 +157,46 @@
         
      c) SOQL Return Records and SOSL returns field.
      d) SOSL is generally faster than SOQL if the search expression uses a CONTAINS term.
+    
+17) What is a page Layout and record type  in Salesforce?
+    Page Layout : It's a structure which Explains How detail and edit pages are organized.
+                :Give idea about Which fields, related lists, and Custom Links a user can see.
+                :Give idea of Field properties – visible, read-only and required.
+    Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
+                :It helps us to  implement our custom business processes.
+                
+18) What is Picklist and What are the datatypes present in Salesforce ?
+     Picklist :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
+     Types of Picklist in salesforce :
+     Restricted Picklist :Restricted picklists keep users from adding new values(either through the API or other apps). 
+                         : This restriction is useful for keeping our data consistent.
+                  
+     Dependent Picklist   :A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
+                          the value of another field, called the controlling field 
+                          
+     Unrestricted Picklist:UnRestricted picklists allow the  users from adding new values.
      
-19) What do you know about Apex?How many ways are there to Call an Apex class?
+     Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
+                               String, Time,URL
+                               
+ 19)What is a Trigger? What are the types of Triggers?
+     Before and after changes are made to a record, the custom actions performed in Salesforce are called Triggers.
+     Triggers can be used to invoke Apex code.
+     These are Trigger action:
+     insert
+     delete
+     update
+     merge
+     upsert
+     undelete
+     
+20)   What is the difference between Force.com and Salesforce.com?
+      Force.com is a Platform-as-a-Service (PaaS) but Salesforce.com is a Software-as-a-Service (SaaS).
+      Salesforce.com comes as an out-of-the-box solution and comes along with three core products – Sales Cloud, Marketing Cloud, and Service Cloud.
+      Saas examples : Google Apps, Salesforce, Dropbox
+      Paas examples : Windows Azure, Heroku
+      
+21) What do you know about Apex?How many ways are there to Call an Apex class?
     Apex is a programming language that acts as a database stored procedure while using Java type syntax.
     It helps to add business logic to a Visualforce page or even button-clicks, system events and more.
     We can call apex  class in below ways.
@@ -195,7 +204,7 @@
     From Visual Force Page
     Using Triggers
      
-20) Define sandbox.org. Name different Sandbox types.
+22) Define sandbox.org. Name different Sandbox types.
     A sandbox is a place where new features/customizations can be tested before they can be applied to the production environment. 
     The different types of sandboxes are:
      Developer
@@ -203,49 +212,42 @@
      Partial Copy
      Full
      
-21) What the difference between isNull and isBlank?
+23) What the difference between isNull and isBlank?
         isNull: It supports for a number field
         isBlank: It supports for a Text field
         
-22)What actions are available in the workflow? 
-   Actions available in the workflow are
-    Email Alert
-    Task
-    Field Update
-    Outbound Message
-    
-23) Is it possible to schedule a dynamic dashboard in Salesforce?
+
+24) Is it possible to schedule a dynamic dashboard in Salesforce?
     No, it is not possible to schedule a dynamic dashboard in Salesforce.
 
-24) What is the junction object and what is its use?
+25) What is the junction object and what is its use?
     Junction objects are used to build many-to-many relationships between objects.
     Example : Recruiting application
             : where a position for a job can be linked to many candidates and in the same manner, a candidate can be related to the different locations.
             
-25)What is the meaning of Governor Limits in Salesforce?
+26)What is the meaning of Governor Limits in Salesforce?
    In Salesforce, Governor Limits helps us  to controls how much data or how many records we can store in the shared databases.
    Salesforce uses a single database to store data from different clients.
    
-26) Can you write getter and setter methods in Salesforce?
+27) Can you write getter and setter methods in Salesforce?
     Yes,in Salesforce we can code the getter method to get the value of a variable to visual force pages 
     while the setter method to set the value of that specific variable.
     
-27) What is a static resource in Salesforce?
+28) What is a static resource in Salesforce?
     With Salesforce’s static resource,we can upload images, zip files, CSS files. It can be referred in a Visualforce page.
     
-28) What is Trigger.new?
+29) What is Trigger.new?
     Triger.new is a command that returns the list of records that have been added recently to the objects. 
     It only returns those records which are yet to be saved to the database.
     
-29) What Is Roll-up Summary?
+30) What Is Roll-up Summary?
     Roll-up summary displays the count of child records and allows us to calculate the sum, minimum and maximum of fields of the child records.
     
-30) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
+31) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
     we can access custom text values from Apex classes and also from any visual force page which known as Custom labels.
     Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.
 
-31) what is validation rule in salesforce ?
-    
+
     
     
     

@@ -144,8 +144,10 @@
     
 16) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
      a)SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
-       SOSL(Salesforce Object Search Language) retrieves the records from the database by using the “FIND” keyword.
+       SOSL(Salesforce Object Search Language) retrieves the field from the database by using the “FIND” keyword.
      b)SOQL can be used in triggers and classes but SOSL only used in classes.
+     c) SOQL Return Records and SOSL returns field.
+     d) SOSL is generally faster than SOQL if the search expression uses a CONTAINS term.
       
        example of a SOSL query that searches for accounts and contacts that have any fields with the word 'SFDC'.
        List<List<SObject>> searchList = [FIND 'SFDC' IN ALL FIELDS 
@@ -155,30 +157,24 @@
        // querying list of records and stores in list variable “acc”
         List<Account>  acc = [Select Name from Account where industry = ‘education’];
         
-     c) SOQL Return Records and SOSL returns field.
-     d) SOSL is generally faster than SOQL if the search expression uses a CONTAINS term.
-    
 17) What is a page Layout and record type  in Salesforce?
-    Page Layout : It's a structure which Explains How detail and edit pages are organized.
-                :Give idea about Which fields, related lists, and Custom Links a user can see.
-                :Give idea of Field properties – visible, read-only and required.
+    Page Layout :It's a structure which Explains How edit pages are organized.
+                :it gives idea about  fields, related lists, and Custom Links a user can see.
+                :it gives idea of Field properties – visible, read-only and required.
     Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
-                :It helps us to  implement our custom business processes.
+               
                 
 18) What is Picklist and What are the datatypes present in Salesforce ?
-     Picklist :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
-     Types of Picklist in salesforce :
-     Restricted Picklist :Restricted picklists keep users from adding new values(either through the API or other apps). 
-                         : This restriction is useful for keeping our data consistent.
-                  
-     Dependent Picklist   :A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
-                          the value of another field, called the controlling field 
-                          
-     Unrestricted Picklist:UnRestricted picklists allow the  users from adding new values.
-     
+     Picklist                :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
                                String, Time,URL
                                
+     Types of Picklist in salesforce :
+     Restricted Picklist 
+     Unrestricted Picklist
+     Dependent Picklist   : A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
+                           the value of another field, called the controlling field 
+                           
  19)What is a Trigger? What are the types of Triggers?
      Before and after changes are made to a record, the custom actions performed in Salesforce are called Triggers.
      Triggers can be used to invoke Apex code.
@@ -198,8 +194,7 @@
       
 21) What do you know about Apex?How many ways are there to Call an Apex class?
     Apex is a programming language that acts as a database stored procedure while using Java type syntax.
-    It helps to add business logic to a Visualforce page or even button-clicks, system events and more.
-    We can call apex  class in below ways.
+    It helps to add business logic to a Visualforce page or even button-clicks, system events etc.
     From another Class
     From Visual Force Page
     Using Triggers
@@ -244,7 +239,7 @@
     Roll-up summary displays the count of child records and allows us to calculate the sum, minimum and maximum of fields of the child records.
     
 31) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
-    we can access custom text values from Apex classes and also from any visual force page which known as Custom labels.
+    we can access custom text values either from Apex classes or from any visual force page which is known as Custom labels.
     Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.
 
 

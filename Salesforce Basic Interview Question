@@ -116,10 +116,12 @@
     Time Dependent action Workflow :Time Dependent action workflow triggers the action like sending automated E-mails,field update, 
                                      Task assignment and sending outbound Messages depending on the time set.
                                      
-12) what is validation rule in salesforce ?
+12) what is validation rule in salesforce ? What is sharing rule in salesforce?
     A Validation Rule is a rule on a field which verifies that data entered by a User into the record meets a certain criteria, before the User can save the record.
     Example :Value of filed  >100 And <1000
             : any date related field [EndDate]>=[StartDate]
+            
+    Sharing rule: It's a rule  written to give edit access (public read and write) or public read only access to certain individuals in Salesforce org.
             
 13) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
      Approval Process: An approval process is a type of business process that includes steps to formally approve work from different levels of the organization.

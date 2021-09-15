@@ -129,16 +129,17 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
       
  20) Which communication channels are available in salesforce marketing cloud ?
      There are four channels of communication available in SalesForce Marketing Cloud 
-     :email, MobileConnect for SMS and MMS messages,
-     :GroupConnect for messaging apps like Messenger, and MobilePush to send  mobile device notifications.
+     Email        :it is used to send and receive the email
+     MobileConnect: It is used to Create, send, receive, and track SMS and MMS text messages.
+     GroupConnect: It is used to send messages via messaging apps LINE and Facebook Messenger.
+     MobilePush  : It is used to create and send push notifications to a mobile app..
    
  21) What is Wait activity in Journey ?Explain different Wait controls available in Journey Builder?
      A Wait Activity is a period of time that contacts are held between other activities. There are types of wait activity:
      Wait by Duration: waits for specified hours, days, etc
      Wait Until Date: waits until the specified end day and time
-     Wait by Attribute: waits until the day and time data stored in a filed is reached.
-     
-     
+     Wait by Attribute: waits until the day and time data stored in a field is reached.
+        
  22)What activities can be performed in the Automation studio?
     Send Email Activity: By this activity we choose and configure an email message to be sent
     SQL Query Activity: By this we retrieve or store data extension or view data information.
@@ -158,40 +159,32 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
 24)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
     Publication lists are used to manage opt-ins for our email account in Email Studio .
     It also controls how subscribers receive the sends email. 
-     A Publication list is used while  sending email messages and SMS messages to a sendable data extension.
+    A Publication list is used while  sending email messages and SMS messages to a sendable data extension.
    
-     Example: we Create a separate publication list for each category like newsletters, advertisements, and alerts.
-            
-            
-      All Subscriber List :The All Subscribers list is the master list of records in SFMC.
-      Publication List    : It  is like a subset of subscribers from the All Subscribers List.
-       Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.
+   Example: we Create a separate publication list for each category like newsletters, advertisements, and alerts.
+   Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.
+   Publication list is subset of all subscribers list.
        
        
 25) What Data Integration options are available in Salesforce Marketing Cloud (SFMC)?
     Data integration options avilable in SFMC APIs , Cloudpages,FTP and Manual import.
-    FTP : Every SFMC org comes with an SFTP account.
+   FTP  : Every SFMC org comes with an SFTP account.
         : Marketing Cloud creates Import,Export and Reports folders in our SFTP folder.we use these SFTP folders to import data into lists and data extensions.
         
    APIs: REST and SOAP APIs is used to import data into sfmc  or export data from SFMC.
        
-  Cloud Page :A Cloud Page landing page is a web page that we can view from a browser .
+   Cloud Page :A Cloud Page landing page is a web page that we can view from a browser .
              :we use AMPscript to write data into lists or data extensions from the cloud page.
               
-  Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
+    Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
   
                
  26)How is data shared between 2 Business Units (BU) within SFMC?
     By placing the data extension (DE) in the Shared folder in the parent BU. 
     After switching to the child BU to view the shared data extension in the ‘Shared’ folder.we can use the data in this DE in the child BU.
     
- 27) What other communication channels can be used/supported in SFMC to target our customers?
-     Apart from Email,SFMC has Mobile Studio which has 3 core features to target customers.
-     MobileConnect: It is used to Create, send, receive, and track SMS and MMS text messages.
-     GroupConnect: It is used to send messages via messaging apps LINE and Facebook Messenger.
-     MobilePush  : It is used to create and send notifications to a mobile app.
-     
-28) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
+ 
+27) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
     Hard Bounce - A hard bounce is an e-mail message that is  returned to the sender because the recipient's address is invalid or the domain doesn't exist.
     soft Bounce - A soft bounce occurs when the email server rejects the email message 
                   because of: Address is temporarily unavailable due to an inactive or temporarily disabled mailbox

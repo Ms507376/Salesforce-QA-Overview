@@ -11,8 +11,7 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
 1) What is Subscribers in  Salesforce marketing Cloud?
    Subsribers are the customer who opted-in to receive email communication from marketing cloud.
    Subscriber belongs to All Subscribers and List.
-   Inside subscribers List we can create a new subscriber with Valid data(Email address,Subscriberkey(Primary key),Subscriber status,
-   profile attribute(first name ,Last name), profile preferences(e.g HTML email)
+   
 
 2) what is List in marketing cloud( Email studio)?
    List is default method of storing subscriber data in email application.
@@ -38,10 +37,10 @@ data warehouses,CRM systems,POS systems,custom apps, and more.
      c)Random   Data Extensions
 
    a) A Standard data extension allows us to create custom fields and data types in our table.
-   b) A Filtered data extension allows us to filter fields, measures,and filters for a sendable data extension from a source data extension.
+   b) A Filtered data extension allows us to filter fields for a sendable data extension from a source data extension.
       we have to have a Standard data extension to create a Filtered data extension.
-   c) A Random data extension allows us to randomly select subscribers from a source data extension.Just like with a Filtered data extension,
-      we need a Standard data extension to derive a random data extension.
+   c) A Random data extension allows us to randomly select subscribers from a source data extension.
+      like  Filtered data extension,we need a Standard data extension to derive a random data extension.
    
    Sendable data extension   -->Data extension contain subsribers data if it is marked as used for sending then it is called Sendable data extension.
    NonSendable data extension-->Data Extension also contain data like purchases ,url to images which we want to display these are Non-Sendable DE.

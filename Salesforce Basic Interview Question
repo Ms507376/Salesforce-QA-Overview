@@ -160,7 +160,7 @@
         List<Account>  acc = [Select Name from Account where industry = ‘education’];
         
 17) What is a page Layout and record type  in Salesforce?
-    Page Layout :It's a structure which Explains How edit pages are organized.
+    Page Layout :It's a structure which gives detail idea about how pages are organized.
                 :it gives idea about  fields, related lists, and Custom Links a user can see.
                 :it gives idea of Field properties – visible, read-only and required.
     Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.

@@ -210,13 +210,19 @@
     From Visual Force Page
     Using Triggers
      
-22) Define sandbox.org. Name different Sandbox types.
+22) Define sandbox.org. Name different Sandbox types.In which sandox QA , UAT and devlopment is done?
     A sandbox is a place where new features/customizations can be tested before they can be applied to the production environment. 
     The different types of sandboxes are:
      Developer
      Developer Pro
      Partial Copy
      Full
+     
+     QA : Developer , Devloper pro 
+     UAT:Partial copy 
+     dev:scratch org and developer sandox is used for devlopment.
+     
+     
      
 23) What the difference between isNull and isBlank?
         isNull: It supports for a number field

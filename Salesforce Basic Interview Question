@@ -131,20 +131,29 @@
       Approval history can be tracked here.
       If the record is set to “locked down” that record can not be changed.
       
+14) what is process builder in salesforce?
+     Process builder is a tool which automates the business process like immediate action and scheduled action and gives a
+      graphical representation of our process as we build.
+      It combines multiple workflows into a single process and can have a chain of criteria (if-then statements )
+      Actions that can be performed with Process builder:
+            Create and update records.
+            Send an Email alert.
+            Submit a record for approval.
+            Invoke a process from another process.
       
-14) What is public group in salesforce ? what is use of public group ?
+15) What is public group in salesforce ? what is use of public group ?
     A public group is a collection of individual users, or groups that all have a commmon function.
     Public Groups—Only administrators can create public groups that is used by everyone in the organization.
     The purpose of having public groups is to assign things or resources to it which can be  used by everyone in the organization.
     
-15)What actions are available in the workflow? 
+16)What actions are available in the workflow? 
    Actions available in the workflow are
     Email Alert
     Task
     Field Update
     Outbound Message
     
-16) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
+17) Difference between SOQL Salesforce Object Query Language  and SOSL Salesforce Object Search Language ?Which is fast SOQL or SOSL?
      a)SOQL(Salesforce Object Query Language )retrieves the records from the database by using “SELECT” keyword.
        SOSL(Salesforce Object Search Language) retrieves the field from the database by using the “FIND” keyword.
      b)SOQL can be used in triggers and classes but SOSL only used in classes.
@@ -159,7 +168,7 @@
        // querying list of records and stores in list variable “acc”
         List<Account>  acc = [Select Name from Account where industry = ‘education’];
         
-17) What is a page Layout and record type  in Salesforce?
+18) What is a page Layout and record type  in Salesforce?
     Page Layout :It's a structure which gives detail idea about how pages are organized.
                 :it gives idea about  fields, related lists, and Custom Links a user can see.
                 :it gives idea of Field properties – visible, read-only and required.

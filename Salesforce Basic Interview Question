@@ -30,7 +30,7 @@
  3)Can we convert the lookup relationship to Master Detail relationship?
     Yes, We can convert the lookup relationship to master detail relationship only if all the existing record has valid lookup field values.
     
- 4) What is profile ?
+ 4) What is profile ?Can two users have the same profile?
     A profile in Salesforce is a group/collection of settings and permissions that define what a user can do in Salesforce.
     A profile controls “Object permissions, Field permissions, User permissions,Tab settings, App settings, Apex class access,
     Visualforce page access, Page layouts, Record Types, Login hours & Login IP ranges.
@@ -43,7 +43,8 @@
     Custom Profile ------> Custom profile defined by us.They can be deleted if there are no users assigned to that particular one.
     
     Navigation: setup -> Administer -> Manage users -> Profiles
-             
+    
+    Yes, two users can have same profile  e.g In organization 2 users can have designation as Senior analyst.
     
 5)  Differnce between Role and Profile ?
       Role ----->The role helps in defining data visibility

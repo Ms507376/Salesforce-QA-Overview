@@ -35,26 +35,23 @@
   Leads  :A lead is an unqualified contact or any potential client or customer we meet who hasn't been qualified 
   as a prospect is a lead.
   Opportunities:Opportunities are qualified leads that we have converted.Opportunities are deals in progress.
-  Opportunity records track details about deals,including which accounts they're for,who the players are,and
-  the amount of sales.
-  When we convert the Lead,we create an Account and Contact along with the Opportunity.
-
+ 
+ When we convert the Lead,we create an Account and Contact along with the Opportunity.
 
 6) Why We Built Lightning Experience ,What Makes Lightning Experience So Special in Salesforce.
-   Salesforce Lightning Experience,It’s fast and beautiful.It’s unique to each sales representatives.
+   Salesforce Lightning Experience,It’s fast and beautiful.
    It helps sales representatives sell faster,with personalized alerts and an interactive assistant to help 
    each sales representative focus on what’s important.
    
    Few Benefit of Lightning Experience in Salesforce.
    We can Navigate through pages and switch between apps with ease using the navigation bar.
-     We can Find records fast with powerful search capabilities,including the ability to view recent records
-     and top search results.
+   We can Find records fast with powerful search capabilities,including the ability to view recent records
+   and top search results.
   
 
 7 ) Salesforce Testing challenges
-     Writing test cases with different roles and mentioning the settings.
-     Some of the standard functionalities can’t be removed even they are not in use.
-     GUI tests don’t work when we switch to the test environment
-     Automated tests should able to work in all our test environments
-     Field Locators are how  automate tests,find the field or button on a page.There is an issue creating field locators for the 
-     Salesforce screens as some field IDs differ between Organisations.
+     Writing test cases with different roles and mentioning the Settings.
+     GUI tests don’t work when we switch to the test environment.
+     Automated tests should able to work in all our test environments.
+     There is an issue creating field locators for the Salesforce screens as some field IDs differ between Organisations(
+                      Field Locators are how automate tests,find the field or button on a page).

@@ -224,14 +224,11 @@
      QA : Developer , Devloper pro 
      UAT:Partial copy 
      dev:scratch org and developer sandox is used for devlopment.
-     
-     
-     
+          
 23) What the difference between isNull and isBlank?
         isNull: It supports for a number field
         isBlank: It supports for a Text field
         
-
 24) Is it possible to schedule a dynamic dashboard in Salesforce?
     No, it is not possible to schedule a dynamic dashboard in Salesforce.
 
@@ -289,7 +286,20 @@
      Username of who made the changes.  
      What the change was. 
  
- 36) 
+ 36)  What all security Level is present In Salesforce ??
+       Mainly there are 4 aspects of data security in Salesforce
+       Organization Level Security (This is applied at org level like creating and managing users,setting password policies)
+       Profile Level Security      (This type of security is applied on object,fields,application,page layouts)
+       Field Level Security        (Field-level security is applied on page layout or object whether a user can edit,see or delete the value for a particular field. )
+       Record Level Security       (This type of security is applied over records in Salesforce Org)
+                                    The following ways we can share records between users
+                                    OWD (Organization-Wide Defaults) , Role Hierarchy,Sharing settings,Manual Sharing
+                                    
+ 37)
+                                     
+                                     
+       
+       
      
      
      

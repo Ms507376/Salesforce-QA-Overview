@@ -179,6 +179,9 @@
                 :it gives idea about  fields, related lists, and Custom Links a user can see.
                 :it gives idea of Field properties – visible, read-only and required.
     Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
+    benefits of record types in Salesforce:
+    a) To Configure multiple page layouts for a single object.
+    b)It allows us to define different sets of picklist values for both standard and custom picklists.
                
                 
 18) What is Picklist and What are the datatypes present in Salesforce ?

@@ -126,6 +126,7 @@
          
     Sharing rule: It's a rule  written to give edit access (public read and write) or public read only access to certain individuals in Salesforce org.
     It is used to grant access to records to specific users, public groups, or roles
+    In Salesforce Manual Sharing, records are shared individually with other users by using the share button on the record.
 
             
 13) wHAT Is approval process in Salesforce ?How it's different from Workflow ?

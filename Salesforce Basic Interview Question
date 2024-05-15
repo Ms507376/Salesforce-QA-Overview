@@ -205,21 +205,34 @@
      merge
      upsert
      undelete
-     
-20)   What is the difference between Force.com and Salesforce.com?
-      Force.com is a Platform-as-a-Service (PaaS) but Salesforce.com is a Software-as-a-Service (SaaS).
-      Salesforce.com comes as an out-of-the-box solution and comes along with three core products – Sales Cloud, Marketing Cloud, and Service Cloud.
-      Saas examples : Google Apps, Salesforce, Dropbox
-      Paas examples : Windows Azure, Heroku
+
+20) What is the junction object and what is its use?
+    Junction objects are used to build many-to-many relationships between objects.
+    Example : Recruiting application
+            : where a position for a job can be linked to many candidates and in the same manner, a candidate can be related to the different locations.
+            
+21)What is the meaning of Governor Limits in Salesforce?
+   In Salesforce, Governor Limits helps us  to controls how much data or how many records we can store in the shared databases.
+   Salesforce uses a single database to store data from different clients.
+
+22)  What all security Level is present In Salesforce ??
+       Mainly there are 4 aspects of data security in Salesforce
+       Organization Level Security (This is applied at org level like creating and managing users,setting password policies)
+       Profile Level Security      (This type of security is applied on object,fields,application,page layouts)
+       Field Level Security        (Field-level security is applied on page layout or object whether a user can edit,see or delete the value for a particular field. )
+       Record Level Security       (This type of security is applied over records in Salesforce Org)
+                                    The following ways we can share records between users
+                                    OWD (Organization-Wide Defaults) , Role Hierarchy,Sharing settings,Manual Sharing
+
       
-21) What do you know about Apex?How many ways are there to Call an Apex class?
+23) What do you know about Apex?How many ways are there to Call an Apex class?
     Apex is a programming language that acts as a database stored procedure while using Java type syntax.
     It helps to add business logic to a Visualforce page or even button-clicks, system events etc.
     From another Class
     From Visual Force Page
     Using Triggers
      
-22) Define sandbox.org. Name different Sandbox types.In which sandox QA , UAT and devlopment is done?
+24) Define sandbox.org. Name different Sandbox types.In which sandox QA , UAT and devlopment is done?
     A sandbox is a place where new features/customizations can be tested before they can be applied to the production environment. 
     The different types of sandboxes are:
      Developer
@@ -231,21 +244,14 @@
      UAT:Partial copy 
      dev:scratch org and developer sandox is used for devlopment.
           
-23) What the difference between isNull and isBlank?
+25) What the difference between isNull and isBlank?
         isNull: It supports for a number field
         isBlank: It supports for a Text field
         
-24) Is it possible to schedule a dynamic dashboard in Salesforce?
+26) Is it possible to schedule a dynamic dashboard in Salesforce?
     No, it is not possible to schedule a dynamic dashboard in Salesforce.
 
-25) What is the junction object and what is its use?
-    Junction objects are used to build many-to-many relationships between objects.
-    Example : Recruiting application
-            : where a position for a job can be linked to many candidates and in the same manner, a candidate can be related to the different locations.
-            
-26)What is the meaning of Governor Limits in Salesforce?
-   In Salesforce, Governor Limits helps us  to controls how much data or how many records we can store in the shared databases.
-   Salesforce uses a single database to store data from different clients.
+
    
 27) Can you write getter and setter methods in Salesforce?
     Yes,in Salesforce we can code the getter method to get the value of a variable to visual force pages 
@@ -292,16 +298,9 @@
      Username of who made the changes.  
      What the change was. 
  
- 36)  What all security Level is present In Salesforce ??
-       Mainly there are 4 aspects of data security in Salesforce
-       Organization Level Security (This is applied at org level like creating and managing users,setting password policies)
-       Profile Level Security      (This type of security is applied on object,fields,application,page layouts)
-       Field Level Security        (Field-level security is applied on page layout or object whether a user can edit,see or delete the value for a particular field. )
-       Record Level Security       (This type of security is applied over records in Salesforce Org)
-                                    The following ways we can share records between users
-                                    OWD (Organization-Wide Defaults) , Role Hierarchy,Sharing settings,Manual Sharing
+ 
                                     
- 37)
+
                                      
                                      
        

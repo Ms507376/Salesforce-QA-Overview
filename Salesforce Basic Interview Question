@@ -251,8 +251,6 @@
 26) Is it possible to schedule a dynamic dashboard in Salesforce?
     No, it is not possible to schedule a dynamic dashboard in Salesforce.
 
-
-   
 27) Can you write getter and setter methods in Salesforce?
     Yes,in Salesforce we can code the getter method to get the value of a variable to visual force pages 
     while the setter method to set the value of that specific variable.

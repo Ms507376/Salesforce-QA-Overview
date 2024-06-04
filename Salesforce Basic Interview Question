@@ -153,10 +153,6 @@ Total number of records retrieved by a single SOSL query	      2000
 Total number of records retrieved by SOQL queries	            50000	
 Total number of records retrieved by Database.getQueryLocator	10000
 
-
-
-
-
 15)  What all security Level is present In Salesforce ??
        Mainly there are 4 aspects of data security in Salesforce
        Organization Level Security (This is applied at org level like creating and managing users,setting password policies)
@@ -165,6 +161,7 @@ Total number of records retrieved by Database.getQueryLocator	10000
        Record Level Security       (This type of security is applied over records in Salesforce Org)
                                     The following ways we can share records between users
                                     OWD (Organization-Wide Defaults) , Role Hierarchy,Sharing settings,Manual Sharing
+
 16) What is public group in salesforce ? what is use of public group ?
     A public group is a collection of individual users, or groups that all have a commmon function.
     Public Groups—Only administrators can create public groups that is used by everyone in the organization.
@@ -174,6 +171,7 @@ Total number of records retrieved by Database.getQueryLocator	10000
     Page Layout :It's a structure which gives detail idea about how pages are organized.
                 :it gives idea about  fields, related lists, and Custom Links a user can see.
                 :it gives idea of Field properties – visible, read-only and required.
+
     Record Type :It allows us to define different sets of picklist values for both standard and custom picklists.
     benefits of record types in Salesforce:
     a) To Configure multiple page layouts for a single object.

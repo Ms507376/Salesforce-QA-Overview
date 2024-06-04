@@ -135,13 +135,27 @@ Imp>    Sharing rule: It's a rule  written to give edit access (public read and 
     In Salesforce Manual Sharing, records are shared individually with other users by using the share button on the record.
 
 13) What is the junction object and what is its use?
-    Junction objects are used to build many-to-many relationships between objects.
+    Junction object is a custom object which is used to build many-to-many relationships between objects.
+    Note: we can't use standard object as Junction Object.
     Example : Recruiting application
             : where a position for a job can be linked to many candidates and in the same manner, a candidate can be related to the different locations.
             
 14)What is the meaning of Governor Limits in Salesforce?
    In Salesforce, Governor Limits helps us  to controls how much data or how many records we can store in the shared databases.
    Salesforce uses a single database to store data from different clients.
+    Examples:
+ 
+                                                   Synchronous Governor Limit  	Asynchronous Limit
+Total number of SOQL queries issued in salesforce	           100	                 200
+Total number of SOSL queries issued in Salesforce	            20	
+Total number of DML statements issued	                        150	
+Total number of records retrieved by a single SOSL query	      2000	
+Total number of records retrieved by SOQL queries	            50000	
+Total number of records retrieved by Database.getQueryLocator	10000
+
+
+
+
 
 15)  What all security Level is present In Salesforce ??
        Mainly there are 4 aspects of data security in Salesforce

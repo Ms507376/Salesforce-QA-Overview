@@ -176,8 +176,7 @@ Total number of records retrieved by Database.getQueryLocator	10000
     benefits of record types in Salesforce:
     a) To Configure multiple page layouts for a single object.
     b)It allows us to define different sets of picklist values for both standard and custom picklists.
-               
-                
+                               
 18) What is Picklist and What are the datatypes present in Salesforce ?
      Picklist                :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
@@ -188,7 +187,6 @@ Total number of records retrieved by Database.getQueryLocator	10000
      Unrestricted Picklist
      Dependent Picklist   : A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
                            the value of another field, called the controlling field 
-
             
 19) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
      Approval Process: An approval process is a type of business process that includes steps to formally approve work from different levels of the organization.
@@ -233,7 +231,6 @@ Total number of records retrieved by Database.getQueryLocator	10000
      merge
      upsert
      undelete
-
       
 23) What do you know about Apex?How many ways are there to Call an Apex class?
     Apex is a programming language that acts as a database stored procedure while using Java type syntax.
@@ -251,7 +248,7 @@ Total number of records retrieved by Database.getQueryLocator	10000
      Full
      
      QA : Developer , Devloper pro 
-     UAT:Partial copy 
+     UAT:Partial copy
      dev:scratch org and developer sandox is used for devlopment.
           
 25) What the difference between isNull and isBlank?
@@ -272,33 +269,14 @@ Total number of records retrieved by Database.getQueryLocator	10000
     Triger.new is a command that returns the list of records that have been added recently to the objects. 
     It only returns those records which are yet to be saved to the database.
     
-30) What Is Roll-up Summary?
-    Roll-up summary displays the count of child records and allows us to calculate the sum, minimum and maximum of fields of the child records.
-    
-31) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
+30) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
     we can access custom text values either from Apex classes or from any visual force page which is known as Custom labels.
-    Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.
-
-32)  What is meant by App,what are the different type of app in salesforce??
-     An app is a container that holds set of required tabs.
-     Custom app  :This type of apps can be used in every business scenario. It is widely used in the market.
-                     The process to create an app in Salesforce:
-                     Setup ---> build---> Create---> App---> Click on new. 
-     Console app :This type of app can be used only in the client service business,
-                   where we focus on solving the client’s issues.It is not comparatively, widely used in the market
-                   
-33)What is Salesforce Standard Fields?What are Audit Fields?
-   Owner,
-   Name,
-   Last modified by,
-   Created by.
+    Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.   
    
-   Standard Fields are called as Audit Fields
-   
-34)Which is the latest field you have worked in SF?what is default filters in SF??
+31)Which is the latest field you have worked in SF?what is default filters in SF??
     Time’ is the latest field in Salesforce. “Date filters” is default filter in salesforce.
     
-35) What is an Audit trail? 
+32) What is an Audit trail? 
     The Audit trail in Salesforce is a unique feature that helps in tracking the changes that have been made in the organization by
      us and other administrators.This audit trail shows us the information of the twenty most recently made changes in our organization.
      Example:Below are the things that we could come to know: 

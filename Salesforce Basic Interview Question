@@ -176,8 +176,14 @@ Total number of records retrieved by Database.getQueryLocator	10000
     benefits of record types in Salesforce:
     a) To Configure multiple page layouts for a single object.
     b)It allows us to define different sets of picklist values for both standard and custom picklists.
+
+18)  How we convert Lead??
+      we Click the Lead tab, Open the Lead record that needs to be converted and click Convert. 
+      In the Account Name field,select Existing Account or can create new one and Complete the other details on the page as per the requirement and click Convert.
+      Lead can be converted into account , contact and opportunity.
+
                                
-18) What is Picklist and What are the datatypes present in Salesforce ?
+19) What is Picklist and What are the datatypes present in Salesforce ?
      Picklist                :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
                                String, Time,URL

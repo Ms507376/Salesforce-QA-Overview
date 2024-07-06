@@ -289,6 +289,33 @@ Total number of records retrieved by Database.getQueryLocator	10000
      The date and time. 
      Username of who made the changes.  
      What the change was. 
+
+33) what is difference between classic and lightning salesforce?
+    salesforce lightning is having new and improved inteface where as Classic salesforce it's not.
+    Salesforce Lightning comes with a higher level of security because of "locker service" feature which protect CRM platform from 
+    malacious data where as classic salesforce doesn't have such feature.
+
+34) 
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
                                     

@@ -98,20 +98,18 @@
    gauges, metrics etc.Salesforce dashboard is capable of displaying 20 reports at a time.
  
 10) what is Salesforce data Loader/Data import Wizard ?what is use of Salesforce Data Loader ?
-     Salesforce data loader is a good tool to load bulk amount of data into our salesforce object .
+     Salesforce data loader : It is a  tool to load bulk amount of data into our salesforce object .
      By using Salesforce data loader we can load up to 5,00,000 records.
      By using Salesforce data loader we can schedule the loads ----->Insert, Update, Upsert, Delete, Hard delete, Export, Export All
      Upsert use:Data Loader Upsert is an operation in which we can Update records to an existing record and Insert new records.
      
      When importing data, Data Loader reads, extracts, and loads data from comma separated values(CSV) files or from database conections. 
-     When exporting data, it outputs CSV files.
-     
-     We can use data loader in following 2 ways.
-     User Interface
-     Command Line
+     When exporting data, it outputs CSV files. It is a Stand-alone tool, downloadable.
      
     Data Import Wizard : It is a tool,accessible through the Setup menu,which allow us to  import data in common standard objects, 
-    such as contacts, leads, accounts, as well as data in custom objects.It can import up to 50,000 records at a time
+    such as contacts, leads, accounts, as well as data in custom objects.It can import up to 50,000 records at a time.
+    It is a cloud-based tool, not downloadable.
+
      
 11) What is Work Flow in Salesforce? Type of workflow in Salesforce ?
     Workflow in Salesforce is basically a container or business logic engine which automates certain actions based on particular criteria.

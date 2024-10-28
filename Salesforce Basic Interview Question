@@ -112,7 +112,7 @@
 
      
 11) What is Work Flow in Salesforce? Type of workflow in Salesforce ?
-    Workflow in Salesforce is basically a container or business logic engine which automates certain actions based on particular criteria.
+    Workflow in Salesforce is basically a business logic engine which automates certain actions based on particular criteria.
     Immediate action Workflow      :Immediate action Workflow triggers immediate action when criteria is met.
     Time Dependent action Workflow :Time Dependent action workflow triggers the action like sending automated E-mails,field update, 
                                      Task assignment and sending outbound Messages depending on the time set.
@@ -149,7 +149,7 @@ Total number of SOSL queries issued in Salesforce	            20
 Total number of DML statements issued	                        150	
 Total number of records retrieved by a single SOSL query	      2000	
 Total number of records retrieved by SOQL queries	            50000	
-Total number of records retrieved by Database.getQueryLocator	10000
+
 
 15)  What all security Level is present In Salesforce ??
        Mainly there are 4 aspects of data security in Salesforce

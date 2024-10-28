@@ -152,7 +152,7 @@ Total number of records retrieved by SOQL queries	            50000
 
 
 15)  What all security Level is present In Salesforce ??
-       Mainly there are 4 aspects of data security in Salesforce
+       Mainly there are 4 level of security in Salesforce
        Organization Level Security (This is applied at org level like creating and managing users,setting password policies)
        Profile Level Security      (This type of security is applied on object,fields,application,page layouts)
        Field Level Security        (Field-level security is applied on page layout or object whether a user can edit,see or delete the value for a particular field. )

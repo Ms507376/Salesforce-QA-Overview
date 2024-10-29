@@ -235,8 +235,8 @@ Total number of records retrieved by SOQL queries	            50000
      merge
      upsert
      undelete
-      
-23) What do you know about Apex?How many ways are there to Call an Apex class?
+
+      23) What do you know about Apex?How many ways are there to Call an Apex class?
     Apex is a programming language that acts as a database stored procedure while using Java type syntax.
     It helps to add business logic to a Visualforce page or even button-clicks, system events etc.
     From another Class
@@ -261,26 +261,8 @@ Total number of records retrieved by SOQL queries	            50000
         
 26) Is it possible to schedule a dynamic dashboard in Salesforce?
     No, it is not possible to schedule a dynamic dashboard in Salesforce.
-
-27) Can you write getter and setter methods in Salesforce?
-    Yes,in Salesforce we can code the getter method to get the value of a variable to visual force pages 
-    while the setter method to set the value of that specific variable.
     
-28) What is a static resource in Salesforce?
-    With Salesforce’s static resource,we can upload images, zip files, CSS files. It can be referred in a Visualforce page.
-    
-29) What is Trigger.new?
-    Triger.new is a command that returns the list of records that have been added recently to the objects. 
-    It only returns those records which are yet to be saved to the database.
-    
-30) What is Custom label concept in Salesforce?How many custom labels can we define and of what size?    
-    we can access custom text values either from Apex classes or from any visual force page which is known as Custom labels.
-    Minimum  5000 custom labels we can define for each organization that can be created.The label size is almost 1000 characters.   
-   
-31)Which is the latest field you have worked in SF?what is default filters in SF??
-    Time’ is the latest field in Salesforce. “Date filters” is default filter in salesforce.
-    
-32) What is an Audit trail? 
+27) What is an Audit trail? 
     The Audit trail in Salesforce is a unique feature that helps in tracking the changes that have been made in the organization by
      us and other administrators.This audit trail shows us the information of the twenty most recently made changes in our organization.
      Example:Below are the things that we could come to know: 
@@ -288,7 +270,7 @@ Total number of records retrieved by SOQL queries	            50000
      Username of who made the changes.  
      What the change was. 
 
-33) what is difference between classic and lightning salesforce?
+28) what is difference between classic and lightning salesforce?
     salesforce lightning is having new and improved inteface where as Classic salesforce it's not.
     Salesforce Lightning comes with a higher level of security because of "locker service" feature which protect CRM platform from 
     malacious data where as classic salesforce doesn't have such feature.

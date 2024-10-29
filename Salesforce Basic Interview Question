@@ -246,15 +246,12 @@ Total number of records retrieved by SOQL queries	            50000
 24) Define sandbox.org. Name different Sandbox types.In which sandox QA , UAT and devlopment is done?
     A sandbox is a place where new features/customizations can be tested before they can be applied to the production environment. 
     The different types of sandboxes are:
-     Developer
-     Developer Pro
-     Partial Copy
-     Full
+     Developer       : devlopement and unit testing
+     Developer Pro   :devlopemen and poc(Proof of Concept)
+     Partial Copy    : QA , Integration Testing,User Acceptance Testing
+     Full Copy       : Performance or Load Testing	,Staging
      
-     QA : Developer , Devloper pro 
-     UAT:Partial copy
-     dev:scratch org and developer sandox is used for devlopment.
-          
+     
 25) What the difference between isNull and isBlank?
         isNull: It supports for a number field
         isBlank: It supports for a Text field

@@ -171,14 +171,8 @@ Total number of records retrieved by SOQL queries	            50000
     benefits of record types in Salesforce:
     a) To Configure multiple page layouts for a single object.
     b)It allows us to define different sets of picklist values for both standard and custom picklists.
-
-18)  How we convert Lead??
-      we Click the Lead tab, Open the Lead record that needs to be converted and click Convert. 
-      In the Account Name field,select Existing Account or can create new one and Complete the other details on the page as per the requirement and click Convert.
-      Lead can be converted into account , contact and opportunity.
-      
-                           
-19) What is Picklist and What are the datatypes present in Salesforce ?
+                        
+18) What is Picklist and What are the datatypes present in Salesforce ?
      Picklist                :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
                                String, Time,URL
@@ -189,7 +183,7 @@ Total number of records retrieved by SOQL queries	            50000
      Dependent Picklist   : A dependent picklist is a custom or multi-select picklist for which the valid values depend on 
                            the value of another field, called the controlling field 
             
-20) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
+19) wHAT Is approval process in Salesforce ?How it's different from Workflow ?
      Approval Process: An approval process is a type of business process that includes steps to formally approve work from different levels of the organization.
      
       Approval Process
@@ -272,9 +266,22 @@ Total number of records retrieved by SOQL queries	            50000
 
 https://www.sfdckid.com/2019/03/salesforce-interview-preparation.html
 
-34) What is formulae field in salesforce ?
+29) What is formulae field in salesforce ?
     A formula field is a read-only field whose value is evaluated from the formula or expression defined by us.
     We can define the formula field on both standards as well as custom objects.
+
+30)  What is Lead, Opportunity, Account,Contact ? How we convert Lead??
+      Lead   : People who are interested in our company to do business.(Not sure if they're going to buy from you.)
+      Contact:people with whom we are having a business relationship (possibly they have bought from us in the past.)
+      Account: A business entity for which contact works.
+      Opportunity: Sales events related to an Account and one or more Contacts.
+       we cannot create an opportunity without converting a lead into Account and Contact.
+      
+      we Click the Lead tab, Open the Lead record that needs to be converted and click Convert. 
+      In the Account Name field,select Existing Account or can create new one and Complete the other details on the page as per the requirement and click Convert.
+      Lead can be converted into account , contact and opportunity.
+     
+    
      
 
 

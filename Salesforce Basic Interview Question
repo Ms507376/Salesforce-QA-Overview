@@ -1,10 +1,14 @@
-
+   
 1)What is Relationship in Salesforce?  what are the Types of Relationship and  what is difference between Lookup and master Details relationship?
    A relationship is a bi-directional association between two objects.Relationships allow us to create links between one object and another. 
   Lookup Relationship
   Master-Detail Relationship
   Many-to-Many relationship 
-  External Look up 
+   
+   How can  we  create many to many relationship ?
+   Lookup and master-detail relationship are one-to-many relationships.
+   We can create a many-to-many relationship by using a junction object.
+   Junction object is a custom object with two master-detail relationships.
   
  LookUp Relationship :It is a loosely coupled relationship among Salesforce objects,where even if a parent record gets deleted,the child records 
                          remain in the system.Here,both the parent and child have their own sharing settings and security controls.
@@ -35,14 +39,6 @@
     Visualforce page access, Page layouts, Record Types, Login hours & Login IP ranges.
     Example System Administrator, Developer, Sales Representative.A profile can be assigned to many users,but a user can be assigned a single profile at a time.
     
-    Types of Profile:
-    Standard Profile ---->salesforce provides below standard profiles. We cannot delete standard ones.
-                          Read Only, Standard User, Marketing User, Contract Manager, Solution Manager & System Administrator. 
-    
-    Custom Profile ------> Custom profile defined by us.They can be deleted if there are no users assigned to that particular one.
-    
-    Navigation: setup -> Administer -> Manage users -> Profiles
-    
     Yes, two users can have same profile  e.g In organization 2 users can have designation as Senior analyst.
     
 5)  Differnce between Role and Profile ?
@@ -54,6 +50,7 @@
              -----> Profile defines permissions
              ----->Defining profile is always mandatory while creating the user.
              
+
 6)  What is permission set in Salesforce ?
     A permission set is a collection of settings and permissions that give users access to various tools and functions.
     Users can have only one profile but,depending on the Salesforce edition, they can have multiple permission sets.

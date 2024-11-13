@@ -280,6 +280,16 @@ https://www.sfdckid.com/2019/03/salesforce-interview-preparation.html
       we Click the Lead tab, Open the Lead record that needs to be converted and click Convert. 
       In the Account Name field,select Existing Account or can create new one and Complete the other details on the page as per the requirement and click Convert.
       Lead can be converted into account , contact and opportunity.
+
+31) what is folder security in salesforce ?What kind of report is used for the dashboard in salesforce ?
+     This will decide the accessibility of that report folder.
+     This option is available in sharing option in reports.
+      Which can be shared with Users, Role and subordinates and public group.
+      Access options are a viewer, editor and manager (high access).
+
+      Only summary and matrix report can be used to generate dashboards.
+
+32)
      
     
      

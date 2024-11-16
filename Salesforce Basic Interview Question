@@ -263,9 +263,6 @@ Total number of records retrieved by SOQL queries	            50000
     Salesforce Lightning comes with a higher level of security because of "locker service" feature which protect CRM platform from 
     malacious data where as classic salesforce doesn't have such feature.
 
-
-https://www.sfdckid.com/2019/03/salesforce-interview-preparation.html
-
 29) What is formulae field in salesforce ?
     A formula field is a read-only field whose value is evaluated from the formula or expression defined by us.
     We can define the formula field on both standards as well as custom objects.
@@ -289,7 +286,24 @@ https://www.sfdckid.com/2019/03/salesforce-interview-preparation.html
 
       Only summary and matrix report can be used to generate dashboards.
 
-32)
+32) what is WhoId and WhatId?
+    WhoId is the API name for the “Name” field on activity-related objects.
+    WhatId is the API name for the “Related To” field on the activity-related objects.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
     
      

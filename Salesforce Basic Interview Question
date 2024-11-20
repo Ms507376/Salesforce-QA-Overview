@@ -289,6 +289,20 @@ Total number of records retrieved by SOQL queries	            50000
 32) what is WhoId and WhatId?
     WhoId is the API name for the “Name” field on activity-related objects.
     WhatId is the API name for the “Related To” field on the activity-related objects.
+
+33)what is Saas and paas? what is difference between them?
+   Saas Stands for Software as a Service,it provides ready-to-use application that's hosted in the cloud.
+     Example: Gmail , Salesforce,dropbox
+   PaaS Stands for Platform as a Service,It provides a cloud-hosted platform for developing, running, and managing applications.
+     Example:Force.com , AWS
+
+34)
+   
+
+
+
+
+
     
 
 

@@ -45,11 +45,12 @@
       Role ----->The role helps in defining data visibility
            ----->A role defines what user data a user can see based on hierarchy
            ----->Defining role to a user is not mandatory always
+    role i.e - call centre agent ,reimbursement specailsit , clinical support specialist 
            
      Profile ----->A profile sets the limit of permission what a user can do in the organization
              -----> Profile defines permissions
              ----->Defining profile is always mandatory while creating the user.
-             
+    Profile i.e - canada base profile , Brazil base profile 
 
 6)  What is permission set in Salesforce ?
     A permission set is a collection of settings and permissions that give users access to various tools and functions.

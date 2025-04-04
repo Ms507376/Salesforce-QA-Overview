@@ -66,6 +66,9 @@
   2.Some users need some temporary access to a specific set of fields and objects we can create a permission set with those object & field 
     access and we can assign those specific users.
 
+   example - docusign PS  for signing the  confidentials documents 
+
+
 7) What is object permission ?
    In Salesforce we can provide permissions to object at profile/permissions sets level. 
    At Object level we can provide read, create, edit, delete, view all & Modify all permissions in profiles/permission sets.

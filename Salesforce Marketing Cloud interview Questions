@@ -187,6 +187,9 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Note : The Marketing Cloud makes 288 attempts to deliver the email message. If all attempts are unsuccessful, it is considered a soft bounce.
 
 28) can we send email in marketing cloud without subject ?
+
+
+------------------------------Marketing cloud project  functionality worked on - Adidas client-------------------------------------------------------------------
    
 
 

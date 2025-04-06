@@ -177,7 +177,7 @@ Total number of records retrieved by SOQL queries	            50000
     b)It allows us to define different sets of picklist values for both standard and custom picklists.
                         
 18) What is Picklist and What are the datatypes present in Salesforce ?
-     Picklist                :Picklists are used in Salesforce to capture static data and define a list wherein users can select via accessing a drop-down menu.
+     Picklist                :Picklists are used in Salesforce to capture static data  which we can select via accessing a drop-down menu.
      Datatype in Salesforce  :Picklist,Boolean,Currency,Date,DateTime,Email(email address),ID(primary key field of salesforce object),Phone, Int,
                                String, Time,URL
                                

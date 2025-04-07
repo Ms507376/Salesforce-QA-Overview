@@ -256,7 +256,7 @@ Total number of records retrieved by SOQL queries	            50000
     
 27) What is an Audit trail? 
     The Audit trail in Salesforce is a unique feature that helps in tracking the changes that have been made in the organization by
-     us and other administrators.This audit trail shows us the information of the twenty most recently made changes in our organization.
+     us and other uers.it shows us the twenty most recently made changes in our organization.
      Example:Below are the things that we could come to know: 
      The date and time. 
      Username of who made the changes.  

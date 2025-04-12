@@ -300,7 +300,13 @@ Total number of records retrieved by SOQL queries	            50000
    PaaS Stands for Platform as a Service,It provides a cloud-hosted platform for developing, running, and managing applications.
      Example:Force.com , AWS
 
-34)https://www.sfapps.info/100-salesforce-testing-interview-questions-and-answers/( Scenario-Based Interview Questions for a Salesforce QA)
+34)"New" button is missing on Campaign object.Therefore,Users are unable to create new Campaigns.In order to have"New" Campaign button appear what admin should do?
+    Administrators must ensure that the "Marketing User" permission enabled -check box as true on the User Detail page of the User who needs access to create a campaign
+
+
+
+
+
 
    
 

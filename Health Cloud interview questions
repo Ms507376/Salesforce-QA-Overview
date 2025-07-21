@@ -16,6 +16,45 @@
   e) provider data model
   f)Social determinants of health data model
 
+3) what is person account in health cloud ??
+   A person account is a single record that combines account and contact information to represent an individual person,such as a patient or member.
+
+4) what is FHIR( Fast Healthcare Interoperability Resources)??
+   FHIR(Fast Healthcare Interoperability Resources) is a healthcare data exchange standard.It allows different electronic health record systems to communicate
+   with each other seamlessly.This means doctors can easily access a patient’s full medical history,regardless of where it was created.
+
+5) What is Health Cloud HL7 Integration?
+  HL7(Health Level Seven)is a standard for exchanging healthcare information electronically.Health Cloud integrates with HL7,
+  enabling seamless data transfer between Health Cloud and EHR systems.
+
+6) What are Care Plans in Health Cloud?
+    A care plan gives the healthcare team a history of patient and the progress or challenges related to their health.
+    Four component of care plan :
+    problem 
+    task 
+    goal 
+    care team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+
 
 
 

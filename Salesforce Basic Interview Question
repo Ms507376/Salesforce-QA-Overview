@@ -133,6 +133,9 @@ Imp>    Sharing rule: It's a rule  written to give edit access (public read and 
     It is used to grant access to records to specific users, public groups, or roles
     In Salesforce Manual Sharing, records are shared individually with other users by using the share button on the record.
 
+   To create a sharing rule in Salesforce, go to Setup and navigate to Sharing Settings. From the "Manage sharing settings for" dropdown,
+   select the object you want to share, then click New in the Sharing Rules section. Choose the rule type (owner-based or criteria-based), define the records to be shared, the users to share with, and the access level, then click Save.  
+
 13) What is the junction object and what is its use?
     Junction object is a custom object which is used to build many-to-many relationships between objects.
     Note: we can't use standard object as Junction Object.

@@ -11,10 +11,10 @@
   There are many type of health care data model 
   a) Household data model
   b) Clinical data model
-  c) Health insurance and claims data model
-  d)Care program data model
-  e) provider data model
-  f)Social determinants of health data model
+  c) Health insurance and claims data model ( Member Plan and coverage benefit)
+  d)Care program data model(program for which patient is getting enrolled)
+  e) provider data model(           )
+  f)Social determinants of health data model(care barrier and care barrier type)
 
 3) what is person account in health cloud ??
    A person account is a single record that combines account and contact information to represent an individual person,such as a patient or member.
@@ -34,6 +34,8 @@
     task 
     goal 
     care team
+
+7) 
 
 
 

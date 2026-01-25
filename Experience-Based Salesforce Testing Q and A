@@ -8,9 +8,24 @@
    I mapped test cases to:
    ●     Profiles and roles 
    ●     Automation 
-  ●     Reports and dashboards 
-  ●     Security settings 
+   ●     Reports and dashboards 
+   ●     Security settings 
    This helped ensure full coverage.
+
+3) Have you tested record types and dependent picklists? Explain.
+    Yes. I tested by creating records using each record type and verified correct picklist values based on dependencies.
+    Opportunity - ( national record type , Local record type) 
+
+4) How did you test custom objects and fields?
+   I verified 
+  ● Field creation and validations
+  ● Permissions 
+  ● Page layouts 
+  ● Relationships
+
+
+
+
 
 
 

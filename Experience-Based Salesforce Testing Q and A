@@ -23,6 +23,30 @@
   ● Page layouts 
   ● Relationships
 
+5) How did you test page layouts for different profiles? 
+   I logged in as different users and verified field visibility, required fields, and available buttons.
+
+6) Have you tested Lightning Record Pages? What issues did you find?
+   Yes. Common issues were:
+  ● Components not visible for some profiles
+  ● Incorrect visibility filters 
+  ● Performance issues
+
+7) How did you test field-level security and object permissions?
+   I tested with different profiles and permission sets to verify read, create, edit, and delete access.
+
+8)  How did you validate role hierarchy and sharing rules?
+    I tested record access by logging in as users at different role levels.
+
+9)
+
+
+
+
+
+
+
+
 
 
 

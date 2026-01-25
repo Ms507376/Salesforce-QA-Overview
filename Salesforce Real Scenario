@@ -1,1 +1,5 @@
-
+1)What were the biggest testing challenges in your Salesforce project?   
+●   Complex security and sharing rules
+●   Multiple automations on the same object 
+●   Different behavior for different profiles
+●   Tight release timelines

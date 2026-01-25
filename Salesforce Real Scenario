@@ -3,3 +3,15 @@
 ●   Multiple automations on the same object 
 ●   Different behavior for different profiles
 ●   Tight release timelines
+
+2)  How did you ensure test coverage for complex Salesforce configurations?      
+   I mapped test cases to:
+   ●     Profiles and roles 
+   ●     Automation 
+  ●     Reports and dashboards 
+  ●     Security settings 
+   This helped ensure full coverage.
+
+
+
+

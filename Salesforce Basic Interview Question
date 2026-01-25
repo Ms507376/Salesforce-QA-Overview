@@ -306,7 +306,6 @@ Total number of records retrieved by SOQL queries	            50000
 34)"New" button is missing on Campaign object.Therefore,Users are unable to create new Campaigns.In order to have"New" Campaign button appear what admin should do?
     Administrators must ensure that the "Marketing User" permission enabled -check box as true on the User Detail page of the User who needs access to create a campaign
 
-https://jobformore.com/salesforce-testing-interview-questions-and-answers/#:~:text=Prepare%20confidently%20for%20your%20Salesforce%20Testing%20interviews%20in,answers%2C%20structured%20for%20freshers%2C%20intermediate%2C%20and%20experienced%20candidates.
 
 
 

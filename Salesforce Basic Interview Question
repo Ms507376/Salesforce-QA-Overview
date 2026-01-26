@@ -12,9 +12,11 @@
   
  LookUp Relationship :It is a loosely coupled relationship among Salesforce objects,where even if a parent record gets deleted,the child records 
                          remain in the system.Here,both the parent and child have their own sharing settings and security controls.
+                        e.g. Contact to Account ( If i delete account , Contact will remain same both have their own sharing setting and contols).
                        
  Master Details Relationship:It is a strongly coupled relationship among Salesforce objects,which means if a master record gets deleted, then the child
                               records associated with it are also deleted.Both doesn't have their own setting.security setting of a parent object applies to the child object.
+                             e.g. An Expense (detail) tied to an Employee (master). =The expense cannot be created without an employee, and if the employee is deleted,the expense is also deleted. 
                               
   Differnce in Look Up and master Details Relationship 
   Look up       ----->Roll-up summary field cannot be created.

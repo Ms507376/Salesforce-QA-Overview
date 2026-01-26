@@ -61,7 +61,7 @@
      Navigation: Setup -> Administer -> Manage users -> Permission sets
    
    Examples: 
-   1.We have many users in our organization with some fundamental job functions.We can assign all of then with one profile that grants
+   1.We have many users in our organization with some fundamental job functions.We can assign all of them with one profile that grants
    them all access to do their job. But some set of people are working on special apps or some special functionality, for this type of 
    special users we can create permission sets and can be assigned to them.
 

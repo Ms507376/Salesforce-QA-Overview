@@ -136,7 +136,8 @@ Imp>    Sharing rule: It's a rule  written to give edit access (public read and 
     In Salesforce Manual Sharing, records are shared individually with other users by using the share button on the record.
 
    To create a sharing rule in Salesforce, go to Setup and navigate to Sharing Settings. From the "Manage sharing settings for" dropdown,
-   select the object you want to share, then click New in the Sharing Rules section. Choose the rule type (owner-based or criteria-based), define the records to be shared, the users to share with, and the access level, then click Save.  
+   select the object you want to share, then click New in the Sharing Rules section. Choose the rule type (owner-based or criteria-based),
+   define the records to be shared, the users to share with, and the access level, then click Save.  
 
 13) What is the junction object and what is its use?
     Junction object is a custom object which is used to build many-to-many relationships between objects.
@@ -169,7 +170,9 @@ Total number of records retrieved by SOQL queries	            50000
 16) What is public group in salesforce ? what is use of public group ?
     A public group is a collection of individual users, or groups that all have a commmon function.
     Public Groups—Only administrators can create public groups that is used by everyone in the organization.
-    The purpose of having public groups is to assign things or resources to it which can be  used by everyone in the organization.
+    A Public Group in Salesforce is used to easily share records, reports, or folders with many people at once.
+     e.g. Creating a "Support Team" group to share all incoming cases.
+
 
 17) What is a page Layout and record type  in Salesforce?
     Page Layout :It's a structure which gives detail idea about how pages are organized.

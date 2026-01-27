@@ -247,10 +247,10 @@ Total number of records retrieved by SOQL queries	            50000
     Using Triggers
      
 24) Define sandbox.org. Name different Sandbox types.In which sandox QA , UAT and devlopment is done?
-    A sandbox is a place where new features/customizations can be tested before they can be applied to the production environment. 
+    A sandbox is a place where new features/customizations can be tested before getting moved to the production environment. 
     The different types of sandboxes are:
      Developer       : devlopement and unit testing
-     Developer Pro   :devlopemen and poc(Proof of Concept)
+     Developer Pro   :devlopement and poc(Proof of Concept)
      Partial Copy    : QA , Integration Testing,User Acceptance Testing
      Full Copy       : Performance or Load Testing	,Staging
      
@@ -291,8 +291,7 @@ Total number of records retrieved by SOQL queries	            50000
       Lead can be converted into account , contact and opportunity.
 
 31) what is folder security in salesforce ?What kind of report is used for the dashboard in salesforce ?
-     This will decide the accessibility of that report folder.
-     This option is available in sharing option in reports.
+     Folder security decides the accessibility of the report folder.This option is available in sharing option in reports.
       Which can be shared with Users, Role and subordinates and public group.
       Access options are a viewer, editor and manager (high access).
 

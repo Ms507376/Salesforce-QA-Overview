@@ -38,7 +38,56 @@
 8)  How did you validate role hierarchy and sharing rules?
     I tested record access by logging in as users at different role levels.
 
-9)
+9) Have you tested permission sets? In what scenarios?
+    Yes. I tested permission sets to give additional access without changing profiles.
+
+10) How did you handle user access issues in production?      
+    I analyzed profile, permission sets, and sharing rules, and worked with admins to resolve issues quickly.
+
+11) What security-related defects did you find?      
+    Some users could see or edit records they should not.These were fixed by correcting Field level security and sharing rules.
+
+12) Have you tested Salesforce workflow ?
+   Yes (i.e. Workflow Email Alert -> Goal (Send an email when an Opportunity Amount > 10,000))
+   Step 1: Create Email Template with Subject High Value Opportunity
+   Step 2: Create Workflow Rule ( object - Opportunity)
+          Evaluation Criteria:Created
+          Rule Criteria: opportunity Amount greater than 10000
+  Step 3: Add Workflow Action
+          Action Type: Email Alert
+          Email Template: High Value Opportunity
+          Recipient:Your user email (for testing)
+   Activate the workflow( mandatory)
+
+   Step 4: Test It
+          Create a new Opportunity
+          Set: Opportunity Amount = 15,000
+          Save
+   ✅ Expected Result: we should receive the email
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

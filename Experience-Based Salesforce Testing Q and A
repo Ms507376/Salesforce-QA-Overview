@@ -100,7 +100,59 @@
 22) How did you handle tight deadlines?      
     I prioritized critical flows and focused on high-risk areas.
 
-23) 
+23) How do you test a user story when acceptance criteria are missing?    
+     I derive acceptance criteria from: ● User story description ● Business process ●Existing Salesforce behavior
+     Then I confirm assumptions with the business before final testing.
+
+24) How do you handle last-minute requirement changes before release?   
+     I analyze the impact,prioritize critical scenarios,update test cases,and perform focused regression testing. I clearly communicate risks to stakeholders.
+
+25 ) How do you ensure full test coverage in Salesforce projects? 
+     I cover: Functional testing ● Profiles and permissions ● Automation (Flows, workflows) ● Reports and dashboards ●Integration and security 
+     I also map test cases to the requirements.
+
+26 ) How do you test custom objects created by the admin?    
+     I verify: ● Object permissions  ● Fields and validations ● Page layouts  and reports related to the object
+
+27) A user can’t see records they should access. How do you troubleshoot?
+    I check: ● Object permissions ● Record ownership ● Sharing rules ● Role hierarchy ●Organization-wide defaults
+
+28) A user can edit a record they should only view. How do you test this issue?   
+     I verify: ● Profile edit permissions ●Permission sets ●Field-level security ●Sharing access
+
+29) How do you test permission sets without affecting other users?      
+    I assign permission sets to test users only and validate access changes without modifying profiles.
+
+30) Users complain Salesforce is slow. What will you check?      
+    I check: ● Page load time ● Large reports ● Automation impact ● Browser issues.
+
+31) What best practices do you follow as a Salesforce tester?
+   ● Understand business processes. ●Test with different profile  ●Focus on automation and security ●Maintain clear test documentation
+
+----------------------------Salesforce Testing Web Application Scenario-Based Questions------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

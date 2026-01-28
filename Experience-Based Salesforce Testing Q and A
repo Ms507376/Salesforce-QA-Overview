@@ -65,8 +65,45 @@
           Save
    ✅ Expected Result: we should receive the email
 
+ ❌ Negative Test:
+    Create Opportunity with opportunity Amount =5,000
+    No email should be sent
+
+13) How did you test approval processes end-to-end?      
+     I tested submission(Submit for approval),approval(Getting approved by approver),rejection,email alerts,
+     and final record updates(Approved/accepted by client/Rejected by client)
+
+14) How did you test reports and dashboards?      
+    I validated filters, record counts, and summary values.
+
+15) Have you tested dynamic dashboards? What challenges did you face?     
+    Yes.The main challenge was data visibility changing based on user roles.
+
+16 ) What reporting issues did you commonly find?  
+     ●Incorrect filters ● Missing fields ● Wrong record counts
+
+17) How did you perform regression testing in Salesforce?      
+    I tested core business flows, automation, reports, and security after every deployment.
+
+18) How did you handle Salesforce seasonal releases?     
+    I tested standard features, Lightning UI, and custom components after release.
+
+19) How did you reproduce production issues in sandbox?
+    I matched production data, profiles, and permissions as closely as possible in uat.
    
-   
+20) How did you handle production defects? 
+     I analyzed the issue,then reproduced it in UAT, tested the fix, and then validated in production.
+
+21) What was the most critical production issue you handled?
+    A security issue where users could access restricted records.It was fixed quickly by correcting sharing rules.
+
+22) How did you handle tight deadlines?      
+    I prioritized critical flows and focused on high-risk areas.
+
+23) 
+
+
+
 
 
 

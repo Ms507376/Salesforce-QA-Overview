@@ -130,6 +130,123 @@
    ● Understand business processes. ●Test with different profile  ●Focus on automation and security ●Maintain clear test documentation
 
 ----------------------------Salesforce Testing Web Application Scenario-Based Questions------------------------------------------------------------------------------
+1) A user can log in but cannot see any records. How will you troubleshoot?
+    I check the user’s profile and object permissions (Read access). Then I verify field-level security,record ownership,role hierarchy,and sharing rules. 
+    I also check if the records are filtered out by list view filters.
+
+2) Login works in Classic but fails in Lightning. What could be the reasons?
+   ● Lightning access not enabled for the profile ● Browser compatibility or cache issue ● User does not have access to Lightning apps.
+
+3) User gets an “Insufficient Privileges” error. How do you identify the issue? 
+   I check:
+   ● Object and field permissions ● Record ownership ● Sharing rules ●Whether the user is trying to access restricted features or records.
+
+4) Fields appear correctly for one profile but not for another. How do you test this? 
+   I compare Field-Level Security (FLS) and page layout assignments for both profiles.I log in as each user to confirm visibility and edit access.
+
+5) A button is visible but not clickable. What checks will you perform?
+    1️⃣ Check the record status
+       See if the record is closed, approved, or locked.
+       Some buttons don’t work when a record is in a certain status.
+
+    2️⃣ Check user permissions
+        Make sure the user has:Edit / Create permission on the object and Access to required fields
+        If the user doesn’t have permission, the button can appear but won’t work.
+
+    3️⃣ Check page layout
+        Confirm the correct page layout is assigned to the user’s profile and record type, and the button is added properly.
+
+    In short :I will check record status, user permissions, page layout and record type, approval locks, validation rules, 
+    and if it’s a custom button, I’ll check the button logic.
+
+
+6)  Records are saved without mandatory data — How to identify the issue?
+      1️⃣ Check field-level required setting
+          Go to Object → Fields and see if the field is actually marked Required.
+          Sometimes it looks mandatory on the page, but isn’t required at field level.
+
+      In short :I check whether the field is truly required at field level or only on the page layout,verify how the record is created (UI or backend),
+      and review validation rules and automation that might bypass or clear the value.
+
+7 ) User cannot edit a record they own. What could be wrong?  
+    Possible reasons: ● The profile does not have Edit permission ● The record is locked by approval ●Validation rules blocking updates.
+
+8) Flow not triggering on record update — How to test and debug?
+    a) Check flow activation
+        Make sure the flow is Active and not an old inactive version.
+
+    b) Check entry conditions
+       Confirm the field values actually change and meet the flow conditions.
+       Flows won’t run if conditions aren’t met.
+
+    c) Check if it’s before-save or after-save
+        Before-save: runs only when record is updated directly
+        After-save: required if flow updates related records
+
+   Test using Debug
+     Open the flow → Click Debug
+     Update a record that meets the criteria
+     See where the flow stops or skips
+
+   Check for errors in logs
+     Enable Debug Logs for the user and update the record.
+     Look for flow or automation errors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

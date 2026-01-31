@@ -204,7 +204,17 @@
 12)Record visible via report but not via list view. Why?      
    List view filters or list view sharing settings may be incorrect.
 
-13)
+13)Hotfix deployed directly to production. What should you test immediately?
+   I test: ● Affected functionality ● Related automation ● Smoke and sanity checks.
+
+14 ) User reports an issue that QA never saw. How do you reproduce it? 
+     I collect user steps, profile details, browser info, and data conditions.
+     Using those details try to reproduce it.
+
+--------------------------------------
+
+
+
 
 
 

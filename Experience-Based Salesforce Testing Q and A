@@ -192,6 +192,30 @@
      Enable Debug Logs for the user and update the record.
      Look for flow or automation errors.
 
+9) Email alerts are sent multiple times for one action. What could cause this?
+   Possible causes: ● Duplicate workflow rules ● Flow looping ● Multiple automation tools acting on same event.
+
+10) Data Loader upload fails with errors. How do you identify the root cause?
+    I analyze: ● Error logs ● Field mappings ●Required fields ●Data format issues.
+
+11) User sees blank report data while others see data. Why?  
+    Because of sharing rules, role hierarchy, or report folder access.
+
+12)Record visible via report but not via list view. Why?      
+   List view filters or list view sharing settings may be incorrect.
+
+13)
+
+
+
+
+
+
+
+
+
+
+
 
 
 

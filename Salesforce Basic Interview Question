@@ -312,8 +312,16 @@ Total number of records retrieved by SOQL queries	            50000
 34)"New" button is missing on Campaign object.Therefore,Users are unable to create new Campaigns.In order to have"New" Campaign button appear what admin should do?
     Administrators must ensure that the "Marketing User" permission enabled -check box as true on the User Detail page of the User who needs access to create a campaign
 
+35 ) What are record-level access methods?   
+    Record-level access is controlled using: ● Organization-Wide Defaults (OWD) ●Role Hierarchy ● Sharing Rules ●Manual Sharing
+
+36) What are organization-wide defaults (OWD)? What is the difference between private, public read only and public read/write in OWD settings?
+    OWD defines the default access level users have to records they do not own.
+    ●Private: Only owner and higher roles can access. 
+    ●Public Read Only: Others can view but not edit. ● Public Read/Write: Others can view and edit.
 
 
+ 
 
 
 

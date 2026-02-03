@@ -211,7 +211,81 @@
      I collect user steps, profile details, browser info, and data conditions.
      Using those details try to reproduce it.
 
---------------------------------------
+--------------------------------------------------------Salesforce Testing Q and A-------------------------------------------------------------------------------------
+
+1) How is Salesforce testing different from normal web application testing?  
+   Salesforce testing focuses more on CRM features, data security, profiles, roles, automationautomation(work flow),and reports, while normal web testing mainly checks UI,
+   functionality, and performance.
+
+2)What are the key components a Salesforce tester must validate?
+  A Salesforce tester must validate objects, fields, page layouts,profiles, roles,sharing rules,automation(work flow),reports, dashboards, and integrations.
+
+3)What challenges are unique to Salesforce testing? 
+  Some unique challenges are frequent releases, a complex security model,and limited access to backend code.
+
+4) How do you validate organization-wide defaults (OWD)?       
+   I set OWD to Private or Public and verify record access for different users.
+
+5) How do you test validation rules?  
+   I enter invalid data to confirm error messages and valid data to ensure the record saves successfully.
+
+6) A user can see a record but should not be able to edit it. How do you handle this?
+   I will give the user read-only access. This can be done by changing object permissions on the profile or by using a Permission Set
+   with Read access only. If record-level control is needed, I can also use Sharing Settings with read-only access.
+
+7) A user needs access to a field only for one week. What is the best solution?
+    I will give access using a Permission Set and remove it after one week.Permission Sets are best for temporary access because they do not affect the profile.
+
+8) Managers should see subordinates’ records, but peers should not. How do you configure this?
+    I will use Role Hierarchy. Managers will be placed above their team members, so they can see subordinate records, 
+     while peers at the same role level cannot see each other’s records.
+
+9) A user needs temporary admin-level access. How do you provide it safely?   
+   I will assign an Admin Permission Set for a limited time and remove it once the work is done.
+
+10) Multiple users need access to one extra object without changing profiles. What will you do?
+    I will create a Permission Set with access to that object and assign it to all required users.
+
+11)A user should see all records but edit only their own. How do you configure this?  
+   I will set Organization-Wide Defaults (OWD) to Public Read Only and give users Edit access only to their own records using sharing rules.
+
+12)
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

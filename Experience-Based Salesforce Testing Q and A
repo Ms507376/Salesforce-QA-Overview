@@ -271,6 +271,76 @@
    ● Page Layout: Field hidden only on UI.
    ● Field-Level Security: Field hidden everywhere (UI, reports, API).
 
+18) What is data skew?      
+   Data skew happens when too many records are owned by one user or linked to one parent record, causing performance issues.
+
+19 ) What is activity management? What is the difference between a task and an event? 
+     Tracking tasks, events, calls, and meetings.
+     ●Task: To-do item  ● Event: Scheduled meeting
+
+20 ) What is global action?What is quick action?
+     Global action:Actions available from anywhere in Salesforce. 
+     quick action: Actions available on specific records.
+
+21) What is Einstein Activity Capture?      
+   Automatically logs emails and calendar events.
+
+22) What is code coverage in Salesforce?Will deployment fail if code coverage is less than 75%?
+    Percentage of Apex code tested. Yes, deployment will fail.
+
+23) What is the Salesforce update/release cycle?
+    Three releases per year.
+
+24 ) What is Single Sign-On (SSO)?     
+     Log in once and access Salesforce using external authentication.
+
+25 )what is sales process in sales cloud in saleforce
+    In Salesforce Sales Cloud, a Sales Process defines the set of stages an Opportunity goes through (like identify , qualify develop , Propose, Closed Won/Closed lost).
+
+26) How many types of accounts are there in Salesforce?  
+    ●     Business Account ●     Person Account
+
+27) What is Web-to-Lead in Salesforce Sales Cloud?What is the lead auto assignment rule?        
+     It captures leads from website forms.Automatically assigns leads to users.
+
+28) What is web-to-case in Salesforce Service Cloud? What is the case auto-assignment rule?   
+      Web-to-Case automatically creates cases from website forms submitted by customers .
+      It automatically assigns cases to users or queues based on defined conditions.
+
+29 ) What is the case auto-response rule? What is the case escalation rule in Salesforce Service Cloud?        
+     It automatically sends email replies to customers when a case is created.It escalates cases to higher users or teams when SLA conditions are not met.
+     SLA( service level agreement) : time within which a case must be responded or resolved.
+
+30) 
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

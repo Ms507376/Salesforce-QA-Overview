@@ -320,6 +320,16 @@ Total number of records retrieved by SOQL queries	            50000
     ●Private: Only owner and higher roles can access. 
     ●Public Read Only: Others can view but not edit. ● Public Read/Write: Others can view and edit.
 
+37) What is the difference between a public group and a queue?  
+    ●Public Group: Used for sharing records with multiple users. 
+    ●Queue: Used to assign records (like Leads or Cases) to a group instead of an individual.
+
+38) 
+
+
+
+
+
 
  
 

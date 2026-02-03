@@ -249,7 +249,61 @@
 11)A user should see all records but edit only their own. How do you configure this?  
    I will set Organization-Wide Defaults (OWD) to Public Read Only and give users Edit access only to their own records using sharing rules.
 
-12)
+12)What is a hierarchical relationship? 
+   Hierarchical relationship is used only on the User object.It shows reporting structure like Manager → Employee.
+
+13) How do we create relationship fields ? or from which object we create relationship fields ?   
+     Relationship fields are created on the child object.       
+     Example: Contact has a lookup to Account.
+
+14) Are we allowed to convert lookup relationship to master detail relationship??
+     Yes, but only if conditions are met: 
+     ● No existing data issues ●Lookup field is mandatory ● Child records have parent values
+
+15 ) Are we allowed to create a roll-up summary or mimic roll-up summary functionality on a lookup relationship? 
+      No, Salesforce does not support it directly.But we can mimic it using: ● Flow ●Apex Trigger ● Declarative Rollup Summary tools.
+
+16) What are record-level access methods?   
+    Record-level access is controlled using: ● Organization-Wide Defaults (OWD) ●Role Hierarchy ● Sharing Rules ●Manual Sharing
+
+17) What are organization-wide defaults (OWD)? What is the difference between private, public read only and public read/write in OWD settings?
+    OWD defines the default access level users have to records they do not own.
+    ●Private: Only owner and higher roles can access. 
+    ●Public Read Only: Others can view but not edit. ● Public Read/Write: Others can view and edit.
+
+18) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 

@@ -277,10 +277,11 @@ Total number of records retrieved by SOQL queries	            50000
     Classic having limited features , ligthing having advance feature.
     Classic is slower , Ligthing is faster.
 
-29) What is formulae field in salesforce ?What is the maximum character limit of a formula field?     
+29) What is formulae field in salesforce ?What is the maximum character limit of a formula field?What are the return types for formula fields? 
     A formula field is a read-only field whose value is evaluated from the formula or expression defined by us.
     We can define the formula field on both standards as well as custom objects.
     The maximum formula size is 3,900 characters.
+    Formula fields can return: ●Text ● Number ● Currency ●Date ●Date/Time ●Checkbox (True/False)
 
 30)  What is Lead, Opportunity, Account,Contact ? How we convert Lead??
       Lead   : People who are interested in our company to do business.(Not sure if they're going to buy from you.)

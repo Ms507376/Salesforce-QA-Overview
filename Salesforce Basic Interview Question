@@ -107,6 +107,10 @@
      ●Open Data Loader ● Select Insert ●Choose object ●Upload CSV ●Map fields ●Run and review results
      When importing data, Data Loader reads, extracts, and loads data from comma separated values(CSV) files or from database conections. 
      When exporting data, it outputs CSV files. It is a Stand-alone tool, downloadable.
+
+   steps to export data in Salesforce using Data Loader?
+    ●Open Data Loader ● Select Export ● Choose object ●Select fields ●Run export
+
      
     Data Import Wizard : It is a tool,accessible through the Setup menu,which allow us to  import data in common standard objects, 
     such as contacts, leads, accounts, as well as data in custom objects.It can import up to 50,000 records at a time.

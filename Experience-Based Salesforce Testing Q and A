@@ -263,13 +263,13 @@
 15 ) Are we allowed to create a roll-up summary or mimic roll-up summary functionality on a lookup relationship? 
       No, Salesforce does not support it directly.But we can mimic it using: ● Flow ●Apex Trigger ● Declarative Rollup Summary tools.
 
-16) What are record-level access methods?   
-    Record-level access is controlled using: ● Organization-Wide Defaults (OWD) ●Role Hierarchy ● Sharing Rules ●Manual Sharing
+16)What is the difference between deactivating and freezing a user?
+  Freeze : Temporarily blocks login but keeps license.
+  Deactivate: Permanently disables login and frees the license.
 
-17) What are organization-wide defaults (OWD)? What is the difference between private, public read only and public read/write in OWD settings?
-    OWD defines the default access level users have to records they do not own.
-    ●Private: Only owner and higher roles can access. 
-    ●Public Read Only: Others can view but not edit. ● Public Read/Write: Others can view and edit.
+17) What is the difference between hiding the field from the page layout and hiding the field from field-level security?  
+   ● Page Layout: Field hidden only on UI.
+   ● Field-Level Security: Field hidden everywhere (UI, reports, API).
 
 
 

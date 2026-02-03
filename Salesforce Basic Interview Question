@@ -274,6 +274,8 @@ Total number of records retrieved by SOQL queries	            50000
     salesforce lightning is having new and improved inteface where as Classic salesforce it's not.
     Salesforce Lightning comes with a higher level of security because of "locker service" feature which protect CRM platform from 
     malacious data where as classic salesforce doesn't have such feature.
+    Classic having limited features , ligthing having advance feature.
+    Classic is slower , Ligthing is faster.
 
 29) What is formulae field in salesforce ?
     A formula field is a read-only field whose value is evaluated from the formula or expression defined by us.

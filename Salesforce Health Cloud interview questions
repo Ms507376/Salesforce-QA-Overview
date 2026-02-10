@@ -52,7 +52,15 @@
 
 
 8) Health Cloud–Specific APIs??
-  FHIR APIs
+  FHIR APIs: Sync clinical data from EHR systems into Health Cloud
+  Clinical Data Model APIs:It is Used to store
+                           Conditions
+                           Allergies
+                           Procedures
+                           Medications.
+
+ Consent Management APIs: Manage patient consent and data-sharing permissions
+                        : Critical for HIPAA & privacy compliance
 
   
     

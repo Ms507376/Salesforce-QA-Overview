@@ -35,13 +35,25 @@
     goal 
     care team
 
-7)  What is HIPAA full form and what does HIPAA compialnce mean in Health care ??
+7)  What is HIPAA full form and what does HIPAA compialnce mean in Health care ??Who must be HIPAA compliant?
     HIPAA :Health Insurance Portability and Accountability Act
     It sets rules for how health data must be:
      Protected
      Used
      Shared
-    HIPAA compliance means a U.S. laws that protect people’s medical information 
+    HIPAA compliance means a U.S. laws that protect people’s medical information.
+    
+    Who must be HIPAA compliant?
+    Doctors, hospitals, clinics
+    Insurance companies
+    Pharmacies
+    Health apps or software that handle patient data
+    Any vendor working with health data
+
+
+8) Health Cloud–Specific APIs??
+  FHIR APIs
+
   
     
     

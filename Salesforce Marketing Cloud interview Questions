@@ -45,7 +45,6 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     List is slow and Data Extension is fast
     Data extension have few more datatype apart from List data type(Date,Test,Boolean,number) like Email address,Decimal,Phone number.
 
-   
 7) What is A/B testing in Email studio ?What components of an email can be tested in A/B Testing?How is the winning email selected in A/B Testing?
     It is a tool which is used to optimize email campaigns by automaticaly spliting the audience,calculating winner and sending the winner reminder.
     we perform A/B Testing on SubjectLines,email,content area,from name ,send date and Pre-header.
@@ -55,7 +54,8 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
 
 
 8) what is  Tracking in Email studio?
-    It is used to track email sent( Total No of email , job id , emailname ,dateofsent all these details).
+    Tracking in Email Studio is the feature that lets us monitor how subscribers interact with our emails after they are sent.
+     It shows us what happened after delivery — who opened, who clicked, who unsubscribed, etc.
 
 9) what is content builder in email studio?
    Content Builder is our cross-channel content management tool that allows us to consolidate images,documents,and content in a single location for use in the Marketing Cloud.
@@ -65,14 +65,19 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Shared content :That is used by all the Business unit (TestBU,Prod,AdidasAG,LAM)
    
 10)what is journey builder and what's the use of journey builder?
-   Marketing Cloud's Journey Builder is a campaign planning tool that enables us to design and automate campaigns that guide customers through their journey with a brand.
-   It allows us to create the journey across the email, mobile, advertising, and the web.
+   Journey Builder is a tool in Salesforce Marketing Cloud that lets us design and automate personalized customer journeys across multiple channels (Email, SMS, Push, etc.).
+   Instead of sending one single email, Journey Builder allows us to create a step-by-step automated communication flow based on customer behavior.
    
    Use of Journey:
    It Connects to customers on the digital channels.
    It automates the journey.
-   Analyze and evaluate the performance of email at each step.
-   
+   Automate Customer Communication
+   Welcome emails
+   Appointment reminders
+    Follow-ups
+    Renewal reminders
+    Abandoned cart emails
+     
 11) what are the different studio present in Marketing cloud and What's the use of each studio?
     Automation Studio:Automation Studio allows activities such as send email,SQL query, data extract, and wait activity.
     Email Studio     : Email Studio is a very important part of the Salesforce Marketing Cloud, it is used to build and send personalized emails from basic newsletters.

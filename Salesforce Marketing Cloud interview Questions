@@ -1,6 +1,6 @@
 
  ******************************************What is Salesforce Marketing Cloud************************************************************
- Marketing Cloud is comprised of a suite of studios and builders(Email Studio, Journey Builder, etc.).
+ Marketing Cloud is comprised of a suite of studios and builders(Email Studio,Query studio , automation studio , Journey Builder,Content builder,Contact builder,etc.).
 This  platform lets us manage messaging through multiple channels: email, sms, ads, and push.
 
 1) What is Subscribers in  Salesforce marketing Cloud?
@@ -113,10 +113,16 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
       Re-entry after exiting
       
  17) What are the different data sources for Journey Builder?
-    Data Extension     : contacts in a sendable data extension enter a journey
-    Lists (or Audience): like a MobileConnect list
-    Salesforce Data    : Salesforce contact database
-    API                : by configuring an integration to admit contacts into a journey
+    Data Extension Entry Source  : contacts from sendable data extension enter a journey
+    Salesforce Data Entry Source : if Marketing Cloud Connect is configured then(Sales Cloud objects (Lead, Contact, Case, Opportunity)when created can be injeced into Journey
+    API Event Entry Source       : Contacts injected into journey via REST API ( Journey Builder Entry Event API)
+    FTP file drop entry source   
+
+18) How FTP  FTP file drop entry soource works as an enty source in journey builder ??
+    A file(CSV or TXT) is placed on Marketing Cloud’s Enhanced FTP (SFTP) server, and that file automatically triggers an import process.
+    When the file lands in a specific folder:
+    An Automation Studio File Drop Activity detects it .The file is imported into a Data Extension.That Data Extension is used as the Journey Entry Source
+    Contacts enter the journey
  
  18) What Message actions can be performed in Journey Builder?
      The List of Message actions that can be performed in Journey builder:

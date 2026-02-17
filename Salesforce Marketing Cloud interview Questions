@@ -63,13 +63,15 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Tracking in Email Studio is the feature that lets us monitor how subscribers interact with our emails after they are sent.
      It shows us what happened after delivery — who opened, who clicked, who unsubscribed, etc.
 
-6) what is content builder in email studio?
+6) what is content builder in email studio?Which content can be included in Content Builder? 
    Content Builder is our cross-channel content management tool that allows us to consolidate images,documents,and content in a single location for use in the Marketing Cloud.
    It is used to create an email based on templates, HTML,Text,Existing Email.Content can include images, content blocks, templates, videos, documents.
    
     Creation of Content folder( Local folder and Shared )
     Shared content :That is used by all the Business unit (TestBU,Prod,AdidasAG,LAM)
-   
+
+    To generate email templates in the Content Builder, we use disposal text, image, free form, button, HTML data, and dynamic content.
+      
 7)what is journey builder and what's the use of journey builder?
    Journey Builder is a tool in Salesforce Marketing Cloud that lets us design and automate personalized customer journeys across multiple channels (Email, SMS, Push, etc.).
    Instead of sending one single email, Journey Builder allows us to create a step-by-step automated communication flow based on customer behavior.
@@ -98,19 +100,16 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
 
     Query Studio     : Query studio allows us to quickly run queries in the Marketing Cloud with a similar experience to SQL Server Studio or MySQL
 
-12) What is Marketing Cloud Connect ?
+9) What is Marketing Cloud Connect ?
     Marketing Cloud Connect is a tool, through which data from either  SalesForce Sales Cloud  or SalesForce Service Cloud  
     can be synced with the SalesForce Marketing Cloud.
     
-13) Which content can be included in Content Builder? 
-    To generate email templates in the Content Builder, we use disposal text, image, free form, button, HTML data, and dynamic content.
- 
-14)How does Dynamic Email work?
+10)How does Dynamic Email work?
    For Dynamic email,we can define a dynamic content block in an email to display(render) information based on the subscriber’s 
    attributes, data extension values, or audiences.Example instead of building 2 emails for a Male and Female customer, we can build a dynamic
    content block that can render the content based on Gender.
    
-15) What are the different Email sending options in SFMC?
+11) What are the different Email sending options in SFMC?
     Different Email sending option present in SFMC .
     Single Email Send  :It is a straightforward way of sending an email.We open the email,click on send, choose the audience and 
                         other email send configuration, and send straight away.
@@ -119,14 +118,14 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Triggered Email Send: A triggered email send  is a email message that Marketing Cloud sends to an individual subscriber in response to a subscriber action. 
                         : For example,sending a confirmation message after a customer makes a purchase is a triggered email.
  
- 16)Is it possible for customer to come back in a journey?
+ 12)Is it possible for customer to come back in a journey?
      yeah , it's possible ,Depending on how the journey has been customized in the Journey settings.
       Mainly 3 options possible :
       No re-entry
       Re-entry anytime
       Re-entry after exiting
       
- 17) What are the different data sources for Journey Builder?
+ 13) What are the different data sources for Journey Builder?
     Data Extension Entry Source  : contacts from sendable data extension enter a journey
     Salesforce Data Entry Source : if Marketing Cloud Connect is configured then(Sales Cloud objects (Lead, Contact, Case, Opportunity)when created can be injeced into Journey
     API Event Entry Source       : Contacts injected into journey via REST API ( Journey Builder Entry Event API)

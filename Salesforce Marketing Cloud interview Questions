@@ -6,14 +6,24 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
 1) What is Subscribers in  Salesforce marketing Cloud?
    Subsribers are the customer who opted-in to receive email communication from marketing cloud.
    Subscriber belongs to All Subscribers and List.
-   
 
-2) what is List in marketing cloud( Email studio)?
+
+2)What are the different data models available in SFMC and what is the difference between them?
+   Different Data model avilable in SFMC .
+   List 
+   Data extension
+   
    List is default method of storing subscriber data in email application.
    Requires minimum configuartion and set up.
    Email address and Subscriber key are the key attributes for List.
    Creating a List-------> Email studio - Subscribers- My List - Create
    Types of List(Public List and private List)
+   
+   List         : A list is a collection of subscribers that receive our communications.
+                : Lists contain less than 500,000 subscribers,less import speed and a limited number of subscriber attributes.
+   DataExtension :Data extension is a table within the database that contains our data.
+                :It can hold greater than 500,000 subscribers,great import speed,and can be used for SOAP and REST APIs.
+   
   
 3) What is Data Extension and type of data extension?
    Data Extension is custom table which stores the data in marketing cloud.
@@ -41,11 +51,7 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
    NonSendable data extension-->Data Extension also contain data like purchases ,url to images which we want to display these are Non-Sendable DE.
 
 
-6)  Difference between List and Data Extension?
-    List is slow and Data Extension is fast
-    Data extension have few more datatype apart from List data type(Date,Test,Boolean,number) like Email address,Decimal,Phone number.
-
-7) What is A/B testing in Email studio ?What components of an email can be tested in A/B Testing?How is the winning email selected in A/B Testing?
+4) What is A/B testing in Email studio ?What components of an email can be tested in A/B Testing?How is the winning email selected in A/B Testing?
     It is a tool which is used to optimize email campaigns by automaticaly spliting the audience,calculating winner and sending the winner reminder.
     we perform A/B Testing on SubjectLines,email,content area,from name ,send date and Pre-header.
     In the A/B Testing configuration, we set the criteria to decide the winning email. we can choose the winner by 2 options:
@@ -53,18 +59,18 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Highest unique click-through rate (CTR): the version with the highest unique click-through rate.
 
 
-8) what is  Tracking in Email studio?
+5) what is  Tracking in Email studio?
     Tracking in Email Studio is the feature that lets us monitor how subscribers interact with our emails after they are sent.
      It shows us what happened after delivery — who opened, who clicked, who unsubscribed, etc.
 
-9) what is content builder in email studio?
+6) what is content builder in email studio?
    Content Builder is our cross-channel content management tool that allows us to consolidate images,documents,and content in a single location for use in the Marketing Cloud.
    It is used to create an email based on templates, HTML,Text,Existing Email.Content can include images, content blocks, templates, videos, documents.
    
     Creation of Content folder( Local folder and Shared )
     Shared content :That is used by all the Business unit (TestBU,Prod,AdidasAG,LAM)
    
-10)what is journey builder and what's the use of journey builder?
+7)what is journey builder and what's the use of journey builder?
    Journey Builder is a tool in Salesforce Marketing Cloud that lets us design and automate personalized customer journeys across multiple channels (Email, SMS, Push, etc.).
    Instead of sending one single email, Journey Builder allows us to create a step-by-step automated communication flow based on customer behavior.
    
@@ -78,10 +84,18 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Renewal reminders
     Abandoned cart emails
      
-11) what are the different studio present in Marketing cloud and What's the use of each studio?
+8) what are the different studio present in Marketing cloud and What's the use of each studio?What activities can be performed in the Automation studio?
     Automation Studio:Automation Studio allows activities such as send email,SQL query, data extract, and wait activity.
+    Activities can be performed in the Automation studio:
+    Send Email Activity: By this activity we choose and configure an email message to be sent
+    SQL Query Activity: By this we retrieve or store data extension or view data information.
+    Data Extract Activity: By this activity we create zipped files for our use outside the SFMC and also to convert an XML file into other formats to import into SFMC.
+    Wait Activity: This activity is used to wait for a specific duration or until a specific time before performing the next step.
+   
+
     Email Studio     : Email Studio is a very important part of the Salesforce Marketing Cloud, it is used to build and send personalized emails from basic newsletters.
                      : It delivers promotional, transactional, and triggered messages and also track and optimize the drive performance.
+
     Query Studio     : Query studio allows us to quickly run queries in the Marketing Cloud with a similar experience to SQL Server Studio or MySQL
 
 12) What is Marketing Cloud Connect ?
@@ -145,21 +159,6 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
      Wait Until Date: waits until the specified end day and time
      Wait by Attribute: waits until the day and time data stored in a field is reached.
         
- 22)What activities can be performed in the Automation studio?
-    Send Email Activity: By this activity we choose and configure an email message to be sent
-    SQL Query Activity: By this we retrieve or store data extension or view data information.
-    Data Extract Activity: By this activity we create zipped files for our use outside the SFMC and also to convert an XML file into other formats to import into SFMC.
-    Wait Activity: This activity is used to wait for a specific duration or until a specific time before performing the next step.
-    
-23)What are the different data models available in SFMC and what is the difference between them?
-   Different Data model avilable in SFMC .
-   List 
-   Data extension
-   
-   List         : A list is a collection of subscribers that receive our communications.
-                : Lists contain less than 500,000 subscribers,less import speed and a limited number of subscriber attributes.
-  DataExtension :Data extension is a table within the database that contains our data.
-                :It can hold greater than 500,000 subscribers,great import speed,and can be used for SOAP and REST APIs.
                 
 24)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
     Publication lists are used to manage opt-ins for our email account in Email Studio .

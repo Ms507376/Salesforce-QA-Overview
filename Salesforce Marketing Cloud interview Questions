@@ -131,47 +131,67 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     API Event Entry Source       : Contacts injected into journey via REST API ( Journey Builder Entry Event API)
     FTP file drop entry source   
 
-18) How FTP  FTP file drop entry soource works as an enty source in journey builder ??
+14) How FTP  file drop entry source works as an enty source in journey builder ??
     A file(CSV or TXT) is placed on Marketing Cloud’s Enhanced FTP (SFTP) server, and that file automatically triggers an import process.
     When the file lands in a specific folder:
     An Automation Studio File Drop Activity detects it .The file is imported into a Data Extension.That Data Extension is used as the Journey Entry Source
     Contacts enter the journey
  
- 18) What Message actions can be performed in Journey Builder?
+ 15) What Message actions can be performed in Journey Builder?
      The List of Message actions that can be performed in Journey builder:
-     Email, SMS, LINE message, mobile push notification, inbox messages, in-app message.
+     Email, SMS, LINE message, mobile push notification, WhatsApp Message, in-app message(Displays a message inside a mobile app,Triggered when user opens the app).
      
- 19) What is the difference between Engagement Split & Decision Split?
-     Engagement Split activity sends contacts down a Yes or No path based on whether they open or click a link in an email or the email bounces.
-     Decision Split in Journey Builder evaluates the data of that contact and makes them flow in the path they are eligible for.
-      
- 20) Which communication channels are available in salesforce marketing cloud ?
+ 16) What is the difference between Engagement Split & Decision Split?
+     In Journey Builder within Salesforce Marketing Cloud,both Engagement Split and Decision Split are control activities but they evaluate different types of data.
+     Engagement Split :It checks Contact behavior (engagement) with a message sent earlier in the journey.
+                     : It Checks 
+                       Opened email?
+                       Clicked link?
+                       Did not open?
+                       Unsubscribed?
+                       Bounce? An email was sent, but it could NOT be delivered to the recipient’s mailbox.The receiving mail server rejected the message.
+                       SMS reply?
+
+      Decision Split:It checks Contact data (attributes) — not engagement behavior.
+                    : Data Extension fields
+                    : Contact Builder attributes
+                    : Journey Data Demographics ,Purchase amount. Status field
+                 e.g. If Country = USA → Path A
+                      If Country = UK → Path B
+                      If Purchase Amount > 1000 → VIP path
+                     
+ 17) Which communication channels are available in salesforce marketing cloud ?
      There are four channels of communication available in SalesForce Marketing Cloud 
      Email        :it is used to send and receive the email
      MobileConnect: It is used to Create, send, receive, and track SMS and MMS text messages.
      GroupConnect: It is used to send messages via messaging apps LINE and Facebook Messenger.
      MobilePush  : It is used to create and send push notifications to a mobile app..
    
- 21) What is Wait activity in Journey ?Explain different Wait controls available in Journey Builder?
+ 18) What is Wait activity in Journey ?Explain different Wait controls available in Journey Builder?
      A Wait Activity is a period of time that contacts are held between other activities. There are types of wait activity:
      Wait by Duration: waits for specified hours, days, etc
      Wait Until Date: waits until the specified end day and time
      Wait by Attribute: waits until the day and time data stored in a field is reached.
-        
-                
-24)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
-    Publication lists are used to manage opt-ins for our email account in Email Studio .
-    It also controls how subscribers receive the sends email. 
-    A Publication list is used while  sending email messages and SMS messages to a sendable data extension.
+       e.g Journey Flow:
+       Contact enters
+       Wait by Attribute → Birthday_Date at 9:00 AM
+      Send Birthday Email
+      👉 Each person receives email on their own birthday
+                      
+19)What are publication lists, and when would we use them? What is the difference between the All Subscribers List and a Publication List?
+    A Publication List is a subscription category that lets contacts opt in or out of specific types of emails (like newsletters or promotions) instead of 
+    unsubscribing from all communications.
    
    Example: we Create a separate publication list for each category like newsletters, advertisements, and alerts.
-   Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.
-   Publication list is subset of all subscribers list.
+    If someone unsubscribes from a Publication List, they stop receiving only that category, not all emails.
+   
+   Example If a subscriber is unsubscribed in the All Subscribers list,the subscriber is unsubscribed from all Publication Lists.They stop receiving all emails
+           Publication list is subset of all subscribers list.
        
        
-25) What Data Integration options are available in Salesforce Marketing Cloud (SFMC)?
+20) What Data Integration options are available in Salesforce Marketing Cloud (SFMC)?
     Data integration options avilable in SFMC APIs , Cloudpages,FTP and Manual import.
-   FTP  : Every SFMC org comes with an SFTP account.
+   FTP  : Every SFMC org comes with an SFTP( Secure File Transfer Protocol) account.
         : Marketing Cloud creates Import,Export and Reports folders in our SFTP folder.we use these SFTP folders to import data into lists and data extensions.
         
    APIs: REST and SOAP APIs is used to import data into sfmc  or export data from SFMC.
@@ -182,12 +202,11 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
     Manual Import: There’s always a manual import option to directly import CSV files into SFMC lists or data extensions.
   
                
- 26)How is data shared between 2 Business Units (BU) within SFMC?
-    By placing the data extension (DE) in the Shared folder in the parent BU. 
-    After switching to the child BU to view the shared data extension in the ‘Shared’ folder.we can use the data in this DE in the child BU.
+ 21)How is data shared between 2 Business Units (BU) within SFMC?
+    Shared Data Extensions :  By placing the data extension (DE) in the Shared folder which is created in the parent BU. 
     
- 
-27) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
+
+22) What is Hard Bounce and Soft Bounce In Salesforce Marketing Cloud?
     Hard Bounce - A hard bounce is an e-mail message that is  returned to the sender because the recipient's address is invalid or the domain doesn't exist.
     soft Bounce - A soft bounce occurs when the email server rejects the email message 
                   because of: Address is temporarily unavailable due to an inactive or temporarily disabled mailbox
@@ -195,12 +214,44 @@ This  platform lets us manage messaging through multiple channels: email, sms, a
                             : Temporary domain failure
     Note : The Marketing Cloud makes 288 attempts to deliver the email message. If all attempts are unsuccessful, it is considered a soft bounce.
 
-28) can we send email in marketing cloud without subject ?
+23) can we send email in marketing cloud without subject ?
     No — we cannot send an email from Salesforce Marketing Cloud without a subject line.
     The Subject Line field is mandatory in Email Studio.
 
-
 ------------------------------Marketing cloud project  functionality worked on - Adidas client-------------------------------------------------------------------
+Worked for one year for Adidas Client
+Once User do sign up to Adidas Websiste ( specific Country CA , AR , BR , DE )  receives welcome email .
+Based on the purchase from website they receives redeem point.
+
+welcome email
+Birthday email
+Tier Upgrade  email 
+Tier downgrade email 
+Tier expirry reminder email ( 30 , 60 , 90 days)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
 
